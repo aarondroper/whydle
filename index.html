@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Whydle</title>
+  <meta name="description" content="Five things. One hidden order. A daily puzzle: work out what five things are sorted by.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f5f3ee" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1726" media="(prefers-color-scheme: dark)">
+  <!-- Link previews (chat apps, social media). Absolute URLs are required. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Whydle">
+  <meta property="og:title" content="Whydle: five things, one hidden order">
+  <meta property="og:description" content="A daily puzzle. Five things are already in order. Can you work out what they're sorted by?">
+  <meta property="og:url" content="https://whydle.app/">
+  <meta property="og:image" content="https://whydle.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Whydle logo with five ranked rows">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Crect x='1' y='12' width='3' height='7' rx='1' fill='%239FDCCF'/%3E%3Crect x='5' y='9.5' width='3' height='9.5' rx='1' fill='%2362C0B8'/%3E%3Crect x='9' y='7' width='3' height='12' rx='1' fill='%233FA3B5'/%3E%3Crect x='13' y='4.5' width='3' height='14.5' rx='1' fill='%23347FB0'/%3E%3Crect x='17' y='2' width='3' height='17' rx='1' fill='%232E5C9E'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <button class="icon-button" id="open-help" aria-label="How to play">?</button>
+    <div class="brand-block">
+      <div class="brand">
+        <svg class="brand-mark" viewBox="0 0 20 20" aria-hidden="true">
+          <rect x="1" y="12" width="3" height="7" rx="1" class="r1"/>
+          <rect x="5" y="9.5" width="3" height="9.5" rx="1" class="r2"/>
+          <rect x="9" y="7" width="3" height="12" rx="1" class="r3"/>
+          <rect x="13" y="4.5" width="3" height="14.5" rx="1" class="r4"/>
+          <rect x="17" y="2" width="3" height="17" rx="1" class="r5"/>
+        </svg>
+        <h1>Whydle</h1>
+      </div>
+      <p class="tagline">Five things. One hidden order.</p>
+    </div>
+    <button class="icon-button" id="open-stats" aria-label="Your stats">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 17V10M8 17V5M13 17V8M18 17V3" /></svg>
+    </button>
+  </header>
+
+  <main id="app">
+    <p class="loading">Loading puzzle…</p>
+  </main>
+  <p id="announcer" class="visually-hidden" aria-live="polite"></p>
+
+  <footer class="colophon">
+    Facts from <a href="https://www.wikidata.org/">Wikidata</a> and cited references. A new puzzle every day.
+  </footer>
+
+  <dialog id="help" aria-labelledby="help-title">
+    <button class="close" data-close aria-label="Close">×</button>
+    <h2 id="help-title">How to play</h2>
+    <p>Five things are already in order: highest at the top, lowest at the bottom. Your job is to work out <strong>what they're sorted by</strong>.</p>
+    <ol class="help-demo" reversed aria-label="Example">
+      <li><span class="rank rank-3">3</span> Earth</li>
+      <li><span class="rank rank-2">2</span> Mars</li>
+      <li><span class="rank rank-1">1</span> Mercury</li>
+    </ol>
+    <p class="help-hint">…sorted by <strong>diameter</strong>, biggest at the top.</p>
+    <ul>
+      <li>Pick one of five options and lock it in.</li>
+      <li>Wrong picks are struck out. Keep going until you get it; fewer tries is better.</li>
+      <li>Then see the real values, and how the other options would have ordered them.</li>
+    </ul>
+    <p>A new puzzle arrives every day at midnight.</p>
+    <button class="primary" data-close>Play</button>
+  </dialog>
+
+  <dialog id="stats" aria-labelledby="stats-title">
+    <button class="close" data-close aria-label="Close">×</button>
+    <h2 id="stats-title">Your stats</h2>
+    <div class="stats-body"></div>
+  </dialog>
+</body>
+</html>

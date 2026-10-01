@@ -1,0 +1,276 @@
+{
+  "version": 2,
+  "launch_date": "2026-10-01",
+  "puzzles": [
+    {
+      "id": "a9b1f4c2ae23",
+      "category": "Actors",
+      "items": [
+        {
+          "label": "Hugh Jackman",
+          "qid": "Q129591",
+          "url": "https://www.wikidata.org/wiki/Q129591"
+        },
+        {
+          "label": "Tom Hanks",
+          "qid": "Q2263",
+          "url": "https://www.wikidata.org/wiki/Q2263"
+        },
+        {
+          "label": "Al Pacino",
+          "qid": "Q41163",
+          "url": "https://www.wikidata.org/wiki/Q41163"
+        },
+        {
+          "label": "Katharine Hepburn",
+          "qid": "Q56016",
+          "url": "https://www.wikidata.org/wiki/Q56016"
+        },
+        {
+          "label": "Meryl Streep",
+          "qid": "Q873",
+          "url": "https://www.wikidata.org/wiki/Q873"
+        }
+      ],
+      "answer": "oscar_nominations",
+      "options": [
+        {
+          "key": "oscar_wins",
+          "label": "Oscars won",
+          "values": [
+            "0",
+            "2",
+            "1",
+            "4",
+            "3"
+          ],
+          "ranks": [
+            1,
+            3,
+            2,
+            5,
+            4
+          ]
+        },
+        {
+          "key": "career_start",
+          "label": "Year their career began",
+          "values": [
+            "1994",
+            "1977",
+            "1967",
+            "1928",
+            "1975"
+          ],
+          "ranks": [
+            5,
+            4,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "key": "oscar_nominations",
+          "label": "Oscar nominations",
+          "values": [
+            "1",
+            "6",
+            "9",
+            "12",
+            "21"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "birth_longitude",
+          "label": "How far east they were born",
+          "values": [
+            "151.2° E",
+            "122.0° W",
+            "74.0° W",
+            "72.7° W",
+            "74.4° W"
+          ],
+          "ranks": [
+            5,
+            1,
+            3,
+            4,
+            2
+          ]
+        },
+        {
+          "key": "birth_year",
+          "label": "Year born",
+          "values": [
+            "1968",
+            "1956",
+            "1940",
+            "1907",
+            "1949"
+          ],
+          "ranks": [
+            5,
+            4,
+            2,
+            1,
+            3
+          ]
+        }
+      ],
+      "number": 1
+    },
+    {
+      "id": "f2ee8cc68867",
+      "category": "Animals",
+      "items": [
+        {
+          "label": "Norway rat",
+          "qid": "Q184224",
+          "url": "https://www.wikidata.org/wiki/Q184224"
+        },
+        {
+          "label": "Capybara",
+          "qid": "Q131538",
+          "url": "https://www.wikidata.org/wiki/Q131538"
+        },
+        {
+          "label": "Gray wolf",
+          "qid": "Q18498",
+          "url": "https://www.wikidata.org/wiki/Q18498"
+        },
+        {
+          "label": "Naked mole-rat",
+          "qid": "Q276290",
+          "url": "https://www.wikidata.org/wiki/Q276290"
+        },
+        {
+          "label": "Killer whale",
+          "qid": "Q26843",
+          "url": "https://www.wikidata.org/wiki/Q26843"
+        }
+      ],
+      "answer": "max_lifespan",
+      "options": [
+        {
+          "key": "maturity",
+          "label": "Age females reach adulthood",
+          "values": [
+            "0.2 years",
+            "1.2 years",
+            "1.8 years",
+            "0.6 years",
+            "10 years"
+          ],
+          "ranks": [
+            1,
+            3,
+            4,
+            2,
+            5
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus"
+          }
+        },
+        {
+          "key": "gestation",
+          "label": "Pregnancy or egg incubation",
+          "values": [
+            "21 days",
+            "150 days",
+            "62 days",
+            "70 days",
+            "435 days"
+          ],
+          "ranks": [
+            1,
+            4,
+            2,
+            3,
+            5
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus"
+          }
+        },
+        {
+          "key": "max_lifespan",
+          "label": "Longest recorded lifespan",
+          "values": [
+            "3.8 years",
+            "15 years",
+            "21 years",
+            "31 years",
+            "90 years"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus"
+          }
+        },
+        {
+          "key": "birth_weight",
+          "label": "Weight at birth",
+          "values": [
+            "5.81 g",
+            "1.5 kg",
+            "450 g",
+            "2 g",
+            "180 kg"
+          ],
+          "ranks": [
+            2,
+            4,
+            3,
+            1,
+            5
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus"
+          }
+        },
+        {
+          "key": "litter_size",
+          "label": "Babies per litter or clutch (average)",
+          "values": [
+            "9.9",
+            "4.8",
+            "6",
+            "7",
+            "1"
+          ],
+          "ranks": [
+            5,
+            2,
+            3,
+            4,
+            1
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus"
+          }
+        }
+      ],
+      "number": 2
+    }
+  ]
+}
