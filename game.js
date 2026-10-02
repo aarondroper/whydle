@@ -47,6 +47,11 @@ export function shareText(puzzleNumber, state, url, streak = 0) {
 }
 
 // For the reveal: does this option's ranking match the displayed order?
+// "Population" → "population" mid-sentence, but "GDP (US$)" stays as it is.
+export function inSentence(label) {
+  return /^[A-Z]{2}/.test(label) ? label : label.charAt(0).toLowerCase() + label.slice(1);
+}
+
 export function matchesOrder(option) {
   return option.ranks.every((rank, index) => rank === index + 1);
 }

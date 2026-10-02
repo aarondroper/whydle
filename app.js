@@ -1,4 +1,4 @@
-import { guess, isStruckOut, matchesOrder, newGame, resultRow, shareText, tries } from "./game.js";
+import { guess, inSentence, isStruckOut, matchesOrder, newGame, resultRow, shareText, tries } from "./game.js";
 import { computeStats, dateOfPuzzle, localIsoDate, msUntilTomorrow, puzzleNumber } from "./daily.js";
 
 const STORAGE_KEY = "whydle-progress-v1";
@@ -124,14 +124,14 @@ function lockIn() {
     // Only a puzzle finished on its own day counts toward stats and streaks.
     if (isDaily(current.number)) progress.daily[current.number] = tries(game);
   } else {
-    message = `Not ${option.label.toLowerCase()}. Try again.`;
+    message = `Not ${inSentence(option.label)}. Try again.`;
   }
   saveProgress();
   selected = null;
   render();
   if (game.solved) {
     const count = tries(game);
-    announce(`${count === 1 ? "First try!" : `Solved in ${count} tries.`} They're sorted by ${option.label.toLowerCase()}.`);
+    announce(`${count === 1 ? "First try!" : `Solved in ${count} tries.`} They're sorted by ${inSentence(option.label)}.`);
     app.querySelector(".result")?.focus();
   } else {
     announce(message);
@@ -279,12 +279,18 @@ function captionHtml(view) {
   const source = view.source
     ? ` Source: <a href="${escapeHtml(view.source.url)}" target="_blank" rel="noopener">${escapeHtml(view.source.note)}</a>.`
     : "";
-  return `<p class="view-caption">Showing <strong>${escapeHtml(view.label.toLowerCase())}</strong>: ${note}${source}</p>`;
+  return `<p class="view-caption">Showing <strong>${escapeHtml(inSentence(view.label))}</strong>: ${note}${source}</p>`;
 }
 
 function squaresHtml() {
   if (!game.guesses.length) return "";
   return `<p class="tries" aria-label="${tries(game)} ${tries(game) === 1 ? "try" : "tries"} so far">${resultRow(game)}</p>`;
+}
+
+// The label, plus a one-line explanation for options that need one (isolation, gestation…).
+function optionText(option) {
+  const hint = option.hint ? `<span class="hint">${escapeHtml(option.hint)}</span>` : "";
+  return `<span class="option-text">${escapeHtml(option.label)}${hint}</span>`;
 }
 
 function guessingHtml() {
@@ -294,7 +300,7 @@ function guessingHtml() {
       const isSelected = selected === option.key;
       return `<button class="option ${struck ? "is-struck" : ""} ${isSelected ? "is-selected" : ""}"
         data-key="${option.key}" aria-pressed="${isSelected}" ${struck ? 'aria-disabled="true"' : ""}>
-        ${escapeHtml(option.label)}</button>`;
+        ${optionText(option)}</button>`;
     })
     .join("");
   return `
@@ -320,13 +326,13 @@ function resultHtml() {
       const mark = matchesOrder(option) ? "✓" : "✗";
       return `<button class="option ${option.key === viewing ? "is-selected" : ""} ${option.key === current.answer ? "is-answer" : ""}"
         data-key="${option.key}" aria-pressed="${option.key === viewing}">
-        <span class="mark" aria-hidden="true">${mark}</span> ${escapeHtml(option.label)}</button>`;
+        <span class="mark" aria-hidden="true">${mark}</span> ${optionText(option)}</button>`;
     })
     .join("");
   return `
     <div class="result" tabindex="-1">
       <p class="verdict">${verdict}</p>
-      <p class="answer">They're sorted by <strong>${escapeHtml(answer.label.toLowerCase())}</strong>.</p>
+      <p class="answer">They're sorted by <strong>${escapeHtml(inSentence(answer.label))}</strong>.</p>
       <p class="tries">${resultRow(game)}</p>
       <div class="result-actions">
         <button class="share">Share result</button>

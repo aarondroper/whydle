@@ -90,7 +90,7 @@
         },
         {
           "key": "birth_longitude",
-          "label": "How far east they were born",
+          "label": "How far east they were born (from the prime meridian)",
           "values": [
             "151.2° E",
             "122.0° W",
@@ -104,7 +104,8 @@
             3,
             4,
             2
-          ]
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
         },
         {
           "key": "birth_year",
@@ -161,7 +162,7 @@
       "options": [
         {
           "key": "maturity",
-          "label": "Age females reach adulthood",
+          "label": "Age females can first breed",
           "values": [
             "0.2 years",
             "1.2 years",
@@ -183,7 +184,7 @@
         },
         {
           "key": "gestation",
-          "label": "Pregnancy or egg incubation",
+          "label": "Time from pregnancy (or egg) to birth",
           "values": [
             "21 days",
             "150 days",
@@ -198,6 +199,7 @@
             3,
             5
           ],
+          "hint": "Days pregnant, or days an egg takes to hatch",
           "source": {
             "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
             "url": "https://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus"
@@ -264,6 +266,7 @@
             4,
             1
           ],
+          "hint": "How many are born, or eggs laid, at one time",
           "source": {
             "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
             "url": "https://genomics.senescence.info/species/entry.php?species=Rattus_norvegicus"
@@ -360,7 +363,7 @@
         },
         {
           "key": "latitude",
-          "label": "How far north",
+          "label": "How far north (from the equator)",
           "values": [
             "46.8° N",
             "54.6° N",
@@ -374,11 +377,12 @@
             2,
             1,
             5
-          ]
+          ],
+          "hint": "Places south of the equator count as below zero"
         },
         {
           "key": "longitude",
-          "label": "How far east",
+          "label": "How far east (from the prime meridian)",
           "values": [
             "8.2° E",
             "2.0° W",
@@ -392,7 +396,8 @@
             4,
             1,
             5
-          ]
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
         }
       ],
       "number": 3
