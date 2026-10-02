@@ -271,6 +271,131 @@
         }
       ],
       "number": 2
+    },
+    {
+      "id": "03f881b391ec",
+      "category": "Countries",
+      "items": [
+        {
+          "label": "Switzerland",
+          "qid": "Q39",
+          "url": "https://www.wikidata.org/wiki/Q39"
+        },
+        {
+          "label": "United Kingdom",
+          "qid": "Q145",
+          "url": "https://www.wikidata.org/wiki/Q145"
+        },
+        {
+          "label": "Pakistan",
+          "qid": "Q843",
+          "url": "https://www.wikidata.org/wiki/Q843"
+        },
+        {
+          "label": "Argentina",
+          "qid": "Q414",
+          "url": "https://www.wikidata.org/wiki/Q414"
+        },
+        {
+          "label": "Russia",
+          "qid": "Q159",
+          "url": "https://www.wikidata.org/wiki/Q159"
+        }
+      ],
+      "answer": "area",
+      "options": [
+        {
+          "key": "gdp",
+          "label": "GDP (US$)",
+          "values": [
+            "$808B",
+            "$3.07T",
+            "$377B",
+            "$633B",
+            "$2.24T"
+          ],
+          "ranks": [
+            3,
+            5,
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "key": "population",
+          "label": "Population",
+          "values": [
+            "9.1M",
+            "67.3M",
+            "224M",
+            "47.3M",
+            "146M"
+          ],
+          "ranks": [
+            1,
+            3,
+            5,
+            2,
+            4
+          ]
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "values": [
+            "41,291 km²",
+            "242,495 km²",
+            "881,913 km²",
+            "2.78M km²",
+            "17.1M km²"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "latitude",
+          "label": "How far north",
+          "values": [
+            "46.8° N",
+            "54.6° N",
+            "30.0° N",
+            "34.0° S",
+            "66.4° N"
+          ],
+          "ranks": [
+            3,
+            4,
+            2,
+            1,
+            5
+          ]
+        },
+        {
+          "key": "longitude",
+          "label": "How far east",
+          "values": [
+            "8.2° E",
+            "2.0° W",
+            "71.0° E",
+            "64.0° W",
+            "94.3° E"
+          ],
+          "ranks": [
+            3,
+            2,
+            4,
+            1,
+            5
+          ]
+        }
+      ],
+      "number": 3
     }
   ]
 }
