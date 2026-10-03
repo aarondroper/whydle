@@ -401,6 +401,131 @@
         }
       ],
       "number": 3
+    },
+    {
+      "id": "cbd2a235e7f4",
+      "category": "Aircraft",
+      "items": [
+        {
+          "label": "Hughes H-4 Hercules",
+          "qid": "Q667443",
+          "url": "https://www.wikidata.org/wiki/Q667443"
+        },
+        {
+          "label": "Lockheed F-117 Nighthawk",
+          "qid": "Q184491",
+          "url": "https://www.wikidata.org/wiki/Q184491"
+        },
+        {
+          "label": "Boeing C-17 Globemaster III",
+          "qid": "Q211369",
+          "url": "https://www.wikidata.org/wiki/Q211369"
+        },
+        {
+          "label": "Boeing 727",
+          "qid": "Q6409",
+          "url": "https://www.wikidata.org/wiki/Q6409"
+        },
+        {
+          "label": "Boeing B-17 Flying Fortress",
+          "qid": "Q185000",
+          "url": "https://www.wikidata.org/wiki/Q185000"
+        }
+      ],
+      "answer": "number_built",
+      "options": [
+        {
+          "key": "wingspan",
+          "label": "Wingspan",
+          "values": [
+            "97.5 m",
+            "13.2 m",
+            "52 m",
+            "32.9 m",
+            "31.6 m"
+          ],
+          "ranks": [
+            5,
+            1,
+            4,
+            3,
+            2
+          ]
+        },
+        {
+          "key": "first_flight",
+          "label": "Year of its first flight",
+          "values": [
+            "1947",
+            "1981",
+            "1991",
+            "1963",
+            "1935"
+          ],
+          "ranks": [
+            2,
+            4,
+            5,
+            3,
+            1
+          ]
+        },
+        {
+          "key": "length",
+          "label": "Length",
+          "values": [
+            "66.7 m",
+            "20.1 m",
+            "53 m",
+            "46.7 m",
+            "22.8 m"
+          ],
+          "ranks": [
+            5,
+            1,
+            4,
+            3,
+            2
+          ]
+        },
+        {
+          "key": "number_built",
+          "label": "Number built",
+          "values": [
+            "1",
+            "64",
+            "279",
+            "1,832",
+            "12,731"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "values": [
+            "24.2 m",
+            "3.78 m",
+            "16.8 m",
+            "10.3 m",
+            "5.8 m"
+          ],
+          "ranks": [
+            5,
+            1,
+            4,
+            3,
+            2
+          ]
+        }
+      ],
+      "number": 4
     }
   ]
 }
