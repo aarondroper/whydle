@@ -526,6 +526,131 @@
         }
       ],
       "number": 4
+    },
+    {
+      "id": "379e98700589",
+      "category": "Films",
+      "items": [
+        {
+          "label": "Lawrence of Arabia",
+          "qid": "Q228186",
+          "url": "https://www.wikidata.org/wiki/Q228186"
+        },
+        {
+          "label": "The Godfather Part III",
+          "qid": "Q202326",
+          "url": "https://www.wikidata.org/wiki/Q202326"
+        },
+        {
+          "label": "The Godfather",
+          "qid": "Q47703",
+          "url": "https://www.wikidata.org/wiki/Q47703"
+        },
+        {
+          "label": "Oppenheimer",
+          "qid": "Q108839994",
+          "url": "https://www.wikidata.org/wiki/Q108839994"
+        },
+        {
+          "label": "Avengers: Endgame",
+          "qid": "Q23781155",
+          "url": "https://www.wikidata.org/wiki/Q23781155"
+        }
+      ],
+      "answer": "box_office",
+      "options": [
+        {
+          "key": "awards",
+          "label": "Awards won (as listed)",
+          "values": [
+            "9",
+            "2",
+            "7",
+            "6",
+            "3"
+          ],
+          "ranks": [
+            5,
+            1,
+            4,
+            3,
+            2
+          ]
+        },
+        {
+          "key": "release_year",
+          "label": "Release year",
+          "values": [
+            "1962",
+            "1990",
+            "1972",
+            "2023",
+            "2019"
+          ],
+          "ranks": [
+            1,
+            3,
+            2,
+            5,
+            4
+          ]
+        },
+        {
+          "key": "box_office",
+          "label": "Box office (US$)",
+          "values": [
+            "$45.7M",
+            "$137M",
+            "$270M",
+            "$955M",
+            "$2.8B"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "budget",
+          "label": "Budget (US$)",
+          "values": [
+            "$15M",
+            "$54M",
+            "$7M",
+            "$100M",
+            "$356M"
+          ],
+          "ranks": [
+            2,
+            3,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "runtime",
+          "label": "Running time",
+          "values": [
+            "216 min",
+            "162 min",
+            "175 min",
+            "180 min",
+            "181 min"
+          ],
+          "ranks": [
+            5,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "number": 5
     }
   ]
 }
