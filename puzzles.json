@@ -651,6 +651,132 @@
         }
       ],
       "number": 5
+    },
+    {
+      "id": "cc7fd7182845",
+      "category": "Cities",
+      "items": [
+        {
+          "label": "Rome",
+          "qid": "Q220",
+          "url": "https://www.wikidata.org/wiki/Q220"
+        },
+        {
+          "label": "London",
+          "qid": "Q84",
+          "url": "https://www.wikidata.org/wiki/Q84"
+        },
+        {
+          "label": "Cairo",
+          "qid": "Q85",
+          "url": "https://www.wikidata.org/wiki/Q85"
+        },
+        {
+          "label": "Amsterdam",
+          "qid": "Q727",
+          "url": "https://www.wikidata.org/wiki/Q727"
+        },
+        {
+          "label": "Dubai",
+          "qid": "Q612",
+          "url": "https://www.wikidata.org/wiki/Q612"
+        }
+      ],
+      "answer": "founding_year",
+      "options": [
+        {
+          "key": "area",
+          "label": "Area",
+          "values": [
+            "1,287 km²",
+            "1,572 km²",
+            "528 km²",
+            "219 km²",
+            "35 km²"
+          ],
+          "ranks": [
+            4,
+            5,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "key": "founding_year",
+          "label": "Year founded",
+          "values": [
+            "753 BCE",
+            "47 CE",
+            "969 CE",
+            "1300",
+            "1833"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "population",
+          "label": "Population",
+          "values": [
+            "2.75M",
+            "8.8M",
+            "9.8M",
+            "921,468",
+            "3.94M"
+          ],
+          "ranks": [
+            2,
+            4,
+            5,
+            1,
+            3
+          ]
+        },
+        {
+          "key": "country_population",
+          "label": "Population of its country",
+          "values": [
+            "58.9M",
+            "67.3M",
+            "115M",
+            "17.9M",
+            "9.89M"
+          ],
+          "ranks": [
+            3,
+            4,
+            5,
+            2,
+            1
+          ]
+        },
+        {
+          "key": "latitude",
+          "label": "How far north (from the equator)",
+          "values": [
+            "41.9° N",
+            "51.5° N",
+            "30.0° N",
+            "52.4° N",
+            "25.3° N"
+          ],
+          "ranks": [
+            3,
+            4,
+            2,
+            5,
+            1
+          ],
+          "hint": "Places south of the equator count as below zero"
+        }
+      ],
+      "number": 6
     }
   ]
 }
