@@ -777,6 +777,151 @@
         }
       ],
       "number": 6
+    },
+    {
+      "id": "9cc2311c5c97",
+      "category": "Dinosaurs",
+      "items": [
+        {
+          "label": "Velociraptor",
+          "qid": "Q14403",
+          "url": "https://www.wikidata.org/wiki/Q14403"
+        },
+        {
+          "label": "Spinosaurus",
+          "qid": "Q130966",
+          "url": "https://www.wikidata.org/wiki/Q130966"
+        },
+        {
+          "label": "Microraptor",
+          "qid": "Q310537",
+          "url": "https://www.wikidata.org/wiki/Q310537"
+        },
+        {
+          "label": "Dilophosaurus",
+          "qid": "Q271710",
+          "url": "https://www.wikidata.org/wiki/Q271710"
+        },
+        {
+          "label": "Eoraptor",
+          "qid": "Q130988",
+          "url": "https://www.wikidata.org/wiki/Q130988"
+        }
+      ],
+      "answer": "lived_mya",
+      "options": [
+        {
+          "key": "length",
+          "label": "Length",
+          "values": [
+            "1.8 m",
+            "14 m",
+            "80 cm",
+            "7 m",
+            "1.7 m"
+          ],
+          "ranks": [
+            3,
+            5,
+            1,
+            4,
+            2
+          ],
+          "source": {
+            "note": "Natural History Museum, London: Dino Directory",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/velociraptor.html"
+          }
+        },
+        {
+          "key": "weight",
+          "label": "Weight",
+          "values": [
+            "7 kg",
+            "7.4 tonnes",
+            "1 kg",
+            "400 kg",
+            "10 kg"
+          ],
+          "ranks": [
+            2,
+            5,
+            1,
+            4,
+            3
+          ],
+          "source": {
+            "note": "Natural History Museum, London: Dino Directory",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/velociraptor.html"
+          }
+        },
+        {
+          "key": "named_year",
+          "label": "Year it was named",
+          "values": [
+            "1924",
+            "1915",
+            "2000",
+            "1970",
+            "1993"
+          ],
+          "ranks": [
+            2,
+            1,
+            5,
+            3,
+            4
+          ],
+          "source": {
+            "note": "Paleobiology Database (CC BY 4.0)",
+            "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Velociraptor"
+          }
+        },
+        {
+          "key": "fossil_finds",
+          "label": "Fossil finds on record",
+          "values": [
+            "20",
+            "44",
+            "10",
+            "14",
+            "1"
+          ],
+          "ranks": [
+            4,
+            5,
+            2,
+            3,
+            1
+          ],
+          "source": {
+            "note": "Paleobiology Database (CC BY 4.0)",
+            "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Velociraptor"
+          }
+        },
+        {
+          "key": "lived_mya",
+          "label": "How long ago it lived",
+          "values": [
+            "72M years ago",
+            "96.5M years ago",
+            "120M years ago",
+            "184M years ago",
+            "228M years ago"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "source": {
+            "note": "Natural History Museum, London: Dino Directory",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/velociraptor.html"
+          }
+        }
+      ],
+      "number": 7
     }
   ]
 }
