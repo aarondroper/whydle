@@ -922,6 +922,141 @@
         }
       ],
       "number": 7
+    },
+    {
+      "id": "f47bfdca2b40",
+      "category": "Bands",
+      "items": [
+        {
+          "label": "Dire Straits",
+          "qid": "Q50040",
+          "url": "https://www.wikidata.org/wiki/Q50040"
+        },
+        {
+          "label": "Guns N' Roses",
+          "qid": "Q11895",
+          "url": "https://www.wikidata.org/wiki/Q11895"
+        },
+        {
+          "label": "Led Zeppelin",
+          "qid": "Q2331",
+          "url": "https://www.wikidata.org/wiki/Q2331"
+        },
+        {
+          "label": "AC/DC",
+          "qid": "Q27593",
+          "url": "https://www.wikidata.org/wiki/Q27593"
+        },
+        {
+          "label": "The Beatles",
+          "qid": "Q1299",
+          "url": "https://www.wikidata.org/wiki/Q1299"
+        }
+      ],
+      "answer": "certified_sales",
+      "options": [
+        {
+          "key": "origin_latitude",
+          "label": "How far north they formed (from the equator)",
+          "values": [
+            "51.5° N",
+            "34.1° N",
+            "51.5° N",
+            "33.9° S",
+            "53.4° N"
+          ],
+          "ranks": [
+            3,
+            2,
+            4,
+            1,
+            5
+          ],
+          "hint": "Places south of the equator count as below zero"
+        },
+        {
+          "key": "formed_year",
+          "label": "Year formed",
+          "values": [
+            "1977",
+            "1985",
+            "1968",
+            "1973",
+            "1960"
+          ],
+          "ranks": [
+            4,
+            5,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "key": "origin_longitude",
+          "label": "How far east they formed (from the prime meridian)",
+          "values": [
+            "0.0° W",
+            "118.2° W",
+            "0.1° W",
+            "151.2° E",
+            "3.0° W"
+          ],
+          "ranks": [
+            4,
+            1,
+            3,
+            5,
+            2
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "first_hit_year",
+          "label": "Year of their first hit record",
+          "values": [
+            "1978",
+            "1987",
+            "1969",
+            "1975",
+            "1962"
+          ],
+          "ranks": [
+            4,
+            5,
+            2,
+            3,
+            1
+          ],
+          "source": {
+            "note": "Wikipedia, List of best-selling music artists (release year of first charted record)",
+            "url": "https://en.wikipedia.org/w/index.php?title=List_of_best-selling_music_artists&oldid=1376669290"
+          }
+        },
+        {
+          "key": "certified_sales",
+          "label": "Certified records sold",
+          "values": [
+            "60.4M",
+            "87.7M",
+            "143M",
+            "189M",
+            "296M"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "source": {
+            "note": "Wikipedia, List of best-selling music artists (total certified units)",
+            "url": "https://en.wikipedia.org/w/index.php?title=List_of_best-selling_music_artists&oldid=1376669290"
+          }
+        }
+      ],
+      "number": 8
     }
   ]
 }
