@@ -1057,6 +1057,133 @@
         }
       ],
       "number": 8
+    },
+    {
+      "id": "f0a22302ef22",
+      "category": "Actors",
+      "items": [
+        {
+          "label": "Scarlett Johansson",
+          "qid": "Q34436",
+          "url": "https://www.wikidata.org/wiki/Q34436"
+        },
+        {
+          "label": "Jennifer Lawrence",
+          "qid": "Q189490",
+          "url": "https://www.wikidata.org/wiki/Q189490"
+        },
+        {
+          "label": "Jack Lemmon",
+          "qid": "Q94123",
+          "url": "https://www.wikidata.org/wiki/Q94123"
+        },
+        {
+          "label": "Ingrid Bergman",
+          "qid": "Q43247",
+          "url": "https://www.wikidata.org/wiki/Q43247"
+        },
+        {
+          "label": "Katharine Hepburn",
+          "qid": "Q56016",
+          "url": "https://www.wikidata.org/wiki/Q56016"
+        }
+      ],
+      "answer": "oscar_wins",
+      "options": [
+        {
+          "key": "oscar_nominations",
+          "label": "Oscar nominations",
+          "values": [
+            "2",
+            "4",
+            "8",
+            "7",
+            "12"
+          ],
+          "ranks": [
+            1,
+            2,
+            4,
+            3,
+            5
+          ]
+        },
+        {
+          "key": "career_start",
+          "label": "Year their career began",
+          "values": [
+            "1994",
+            "2007",
+            "1949",
+            "1934",
+            "1928"
+          ],
+          "ranks": [
+            4,
+            5,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "key": "birth_latitude",
+          "label": "How far north they were born (from the equator)",
+          "values": [
+            "40.7° N",
+            "38.3° N",
+            "42.3° N",
+            "59.3° N",
+            "41.8° N"
+          ],
+          "ranks": [
+            2,
+            1,
+            4,
+            5,
+            3
+          ],
+          "hint": "Places south of the equator count as below zero"
+        },
+        {
+          "key": "birth_longitude",
+          "label": "How far east they were born (from the prime meridian)",
+          "values": [
+            "74.0° W",
+            "85.7° W",
+            "71.2° W",
+            "18.1° E",
+            "72.7° W"
+          ],
+          "ranks": [
+            2,
+            1,
+            4,
+            5,
+            3
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "oscar_wins",
+          "label": "Oscars won",
+          "values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "number": 9
     }
   ]
 }
