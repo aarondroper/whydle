@@ -1184,6 +1184,152 @@
         }
       ],
       "number": 9
+    },
+    {
+      "id": "73309d534ae4",
+      "category": "Animals",
+      "items": [
+        {
+          "label": "Mute swan",
+          "qid": "Q25402",
+          "url": "https://www.wikidata.org/wiki/Q25402"
+        },
+        {
+          "label": "Polar bear",
+          "qid": "Q33609",
+          "url": "https://www.wikidata.org/wiki/Q33609"
+        },
+        {
+          "label": "Red panda",
+          "qid": "Q41960",
+          "url": "https://www.wikidata.org/wiki/Q41960"
+        },
+        {
+          "label": "Blue whale",
+          "qid": "Q42196",
+          "url": "https://www.wikidata.org/wiki/Q42196"
+        },
+        {
+          "label": "African bush elephant",
+          "qid": "Q36557",
+          "url": "https://www.wikidata.org/wiki/Q36557"
+        }
+      ],
+      "answer": "gestation",
+      "options": [
+        {
+          "key": "birth_weight",
+          "label": "Weight at birth",
+          "values": [
+            "225 g",
+            "665 g",
+            "100 g",
+            "2 tonnes",
+            "105 kg"
+          ],
+          "ranks": [
+            2,
+            3,
+            1,
+            5,
+            4
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Cygnus_olor"
+          }
+        },
+        {
+          "key": "max_lifespan",
+          "label": "Longest recorded lifespan",
+          "values": [
+            "40 years",
+            "44 years",
+            "19 years",
+            "110 years",
+            "65 years"
+          ],
+          "ranks": [
+            2,
+            3,
+            1,
+            5,
+            4
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Cygnus_olor"
+          }
+        },
+        {
+          "key": "weight",
+          "label": "Adult weight",
+          "values": [
+            "8.3 kg",
+            "475 kg",
+            "4.33 kg",
+            "136 tonnes",
+            "4.8 tonnes"
+          ],
+          "ranks": [
+            2,
+            3,
+            1,
+            5,
+            4
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Cygnus_olor"
+          }
+        },
+        {
+          "key": "gestation",
+          "label": "Time from pregnancy (or egg) to birth",
+          "values": [
+            "36 days",
+            "65 days",
+            "116 days",
+            "350 days",
+            "670 days"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "hint": "Days pregnant, or days an egg takes to hatch",
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Cygnus_olor"
+          }
+        },
+        {
+          "key": "maturity",
+          "label": "Age females can first breed",
+          "values": [
+            "3 years",
+            "4.7 years",
+            "1.5 years",
+            "5 years",
+            "11 years"
+          ],
+          "ranks": [
+            2,
+            3,
+            1,
+            4,
+            5
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Cygnus_olor"
+          }
+        }
+      ],
+      "number": 10
     }
   ]
 }
