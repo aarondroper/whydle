@@ -1330,6 +1330,133 @@
         }
       ],
       "number": 10
+    },
+    {
+      "id": "17d16c386cef",
+      "category": "Countries",
+      "items": [
+        {
+          "label": "Peru",
+          "qid": "Q419",
+          "url": "https://www.wikidata.org/wiki/Q419"
+        },
+        {
+          "label": "Ireland",
+          "qid": "Q27",
+          "url": "https://www.wikidata.org/wiki/Q27"
+        },
+        {
+          "label": "Saudi Arabia",
+          "qid": "Q851",
+          "url": "https://www.wikidata.org/wiki/Q851"
+        },
+        {
+          "label": "Vietnam",
+          "qid": "Q881",
+          "url": "https://www.wikidata.org/wiki/Q881"
+        },
+        {
+          "label": "New Zealand",
+          "qid": "Q664",
+          "url": "https://www.wikidata.org/wiki/Q664"
+        }
+      ],
+      "answer": "longitude",
+      "options": [
+        {
+          "key": "density",
+          "label": "Population density",
+          "values": [
+            "27 per km²",
+            "74 per km²",
+            "15 per km²",
+            "290 per km²",
+            "20 per km²"
+          ],
+          "ranks": [
+            3,
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "key": "life_expectancy",
+          "label": "Life expectancy",
+          "values": [
+            "73 years",
+            "83 years",
+            "75 years",
+            "76 years",
+            "82 years"
+          ],
+          "ranks": [
+            1,
+            5,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "key": "longitude",
+          "label": "How far east (from the prime meridian)",
+          "values": [
+            "76.0° W",
+            "8.0° W",
+            "44.1° E",
+            "108.0° E",
+            "174.0° E"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "hdi",
+          "label": "Human Development Index",
+          "values": [
+            "0.762",
+            "0.945",
+            "0.875",
+            "0.703",
+            "0.937"
+          ],
+          "ranks": [
+            2,
+            5,
+            3,
+            1,
+            4
+          ],
+          "hint": "The UN's 0–1 score for health, education and income"
+        },
+        {
+          "key": "fertility",
+          "label": "Births per woman",
+          "values": [
+            "2.46",
+            "1.55",
+            "2.77",
+            "2.06",
+            "1.87"
+          ],
+          "ranks": [
+            4,
+            1,
+            5,
+            3,
+            2
+          ]
+        }
+      ],
+      "number": 11
     }
   ]
 }
