@@ -1457,6 +1457,133 @@
         }
       ],
       "number": 11
+    },
+    {
+      "id": "7bec8c7b08e1",
+      "category": "Airports",
+      "items": [
+        {
+          "label": "Amsterdam Schiphol Airport",
+          "qid": "Q9694",
+          "url": "https://www.wikidata.org/wiki/Q9694"
+        },
+        {
+          "label": "London Stansted Airport",
+          "qid": "Q8709",
+          "url": "https://www.wikidata.org/wiki/Q8709"
+        },
+        {
+          "label": "Paris-Charles de Gaulle Airport",
+          "qid": "Q46280",
+          "url": "https://www.wikidata.org/wiki/Q46280"
+        },
+        {
+          "label": "Shanghai Pudong International Airport",
+          "qid": "Q36420",
+          "url": "https://www.wikidata.org/wiki/Q36420"
+        },
+        {
+          "label": "Istanbul Airport",
+          "qid": "Q3661908",
+          "url": "https://www.wikidata.org/wiki/Q3661908"
+        }
+      ],
+      "answer": "opened_year",
+      "options": [
+        {
+          "key": "elevation",
+          "label": "Elevation",
+          "values": [
+            "-3 m",
+            "106 m",
+            "119 m",
+            "4 m",
+            "99 m"
+          ],
+          "ranks": [
+            1,
+            4,
+            5,
+            2,
+            3
+          ]
+        },
+        {
+          "key": "passengers",
+          "label": "Passengers per year",
+          "values": [
+            "66.8M",
+            "23.3M",
+            "67.4M",
+            "85M",
+            "84.5M"
+          ],
+          "ranks": [
+            2,
+            1,
+            3,
+            5,
+            4
+          ]
+        },
+        {
+          "key": "longitude",
+          "label": "How far east (from the prime meridian)",
+          "values": [
+            "4.8° E",
+            "0.2° E",
+            "2.5° E",
+            "121.8° E",
+            "28.7° E"
+          ],
+          "ranks": [
+            3,
+            1,
+            2,
+            5,
+            4
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "latitude",
+          "label": "How far north (from the equator)",
+          "values": [
+            "52.3° N",
+            "51.9° N",
+            "49.0° N",
+            "31.1° N",
+            "41.3° N"
+          ],
+          "ranks": [
+            5,
+            4,
+            3,
+            1,
+            2
+          ],
+          "hint": "Places south of the equator count as below zero"
+        },
+        {
+          "key": "opened_year",
+          "label": "Year opened",
+          "values": [
+            "1916",
+            "1942",
+            "1974",
+            "1999",
+            "2018"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "number": 12
     }
   ]
 }
