@@ -1584,6 +1584,133 @@
         }
       ],
       "number": 12
+    },
+    {
+      "id": "9b9fdf849945",
+      "category": "Bridges",
+      "items": [
+        {
+          "label": "The Iron Bridge",
+          "qid": "Q99200",
+          "url": "https://www.wikidata.org/wiki/Q99200"
+        },
+        {
+          "label": "Pont de l'Alma",
+          "qid": "Q1621256",
+          "url": "https://www.wikidata.org/wiki/Q1621256"
+        },
+        {
+          "label": "Confederation Bridge",
+          "qid": "Q865076",
+          "url": "https://www.wikidata.org/wiki/Q865076"
+        },
+        {
+          "label": "Brooklyn Bridge",
+          "qid": "Q125006",
+          "url": "https://www.wikidata.org/wiki/Q125006"
+        },
+        {
+          "label": "Humber Bridge",
+          "qid": "Q1141014",
+          "url": "https://www.wikidata.org/wiki/Q1141014"
+        }
+      ],
+      "answer": "main_span",
+      "options": [
+        {
+          "key": "opened_year",
+          "label": "Year opened",
+          "values": [
+            "1781",
+            "1856",
+            "1997",
+            "1883",
+            "1981"
+          ],
+          "ranks": [
+            1,
+            2,
+            5,
+            3,
+            4
+          ]
+        },
+        {
+          "key": "latitude",
+          "label": "How far north (from the equator)",
+          "values": [
+            "52.6° N",
+            "48.9° N",
+            "46.2° N",
+            "40.7° N",
+            "53.7° N"
+          ],
+          "ranks": [
+            4,
+            3,
+            2,
+            1,
+            5
+          ],
+          "hint": "Places south of the equator count as below zero"
+        },
+        {
+          "key": "length",
+          "label": "Total length",
+          "values": [
+            "60 m",
+            "153 m",
+            "12.9 km",
+            "1.83 km",
+            "2.22 km"
+          ],
+          "ranks": [
+            1,
+            2,
+            5,
+            3,
+            4
+          ]
+        },
+        {
+          "key": "main_span",
+          "label": "Longest span",
+          "values": [
+            "30.6 m",
+            "110 m",
+            "250 m",
+            "487 m",
+            "1.41 km"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "longitude",
+          "label": "How far east (from the prime meridian)",
+          "values": [
+            "2.5° W",
+            "2.3° E",
+            "63.8° W",
+            "74.0° W",
+            "0.5° W"
+          ],
+          "ranks": [
+            3,
+            5,
+            2,
+            1,
+            4
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        }
+      ],
+      "number": 13
     }
   ]
 }
