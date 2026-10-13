@@ -1711,6 +1711,133 @@
         }
       ],
       "number": 13
+    },
+    {
+      "id": "b80578acbe68",
+      "category": "Famous people",
+      "items": [
+        {
+          "label": "Joan of Arc",
+          "qid": "Q7226",
+          "url": "https://www.wikidata.org/wiki/Q7226"
+        },
+        {
+          "label": "Wolfgang Amadeus Mozart",
+          "qid": "Q254",
+          "url": "https://www.wikidata.org/wiki/Q254"
+        },
+        {
+          "label": "William Shakespeare",
+          "qid": "Q692",
+          "url": "https://www.wikidata.org/wiki/Q692"
+        },
+        {
+          "label": "Muhammad Ali",
+          "qid": "Q36107",
+          "url": "https://www.wikidata.org/wiki/Q36107"
+        },
+        {
+          "label": "Pablo Picasso",
+          "qid": "Q5593",
+          "url": "https://www.wikidata.org/wiki/Q5593"
+        }
+      ],
+      "answer": "age_at_death",
+      "options": [
+        {
+          "key": "birth_longitude",
+          "label": "How far east they were born (from the prime meridian)",
+          "values": [
+            "5.7° E",
+            "13.0° E",
+            "1.7° W",
+            "85.8° W",
+            "4.4° W"
+          ],
+          "ranks": [
+            4,
+            5,
+            3,
+            1,
+            2
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "death_year",
+          "label": "Year died",
+          "values": [
+            "1431",
+            "1791",
+            "1616",
+            "2016",
+            "1973"
+          ],
+          "ranks": [
+            1,
+            3,
+            2,
+            5,
+            4
+          ]
+        },
+        {
+          "key": "birth_year",
+          "label": "Year born",
+          "values": [
+            "1412",
+            "1756",
+            "1564",
+            "1942",
+            "1881"
+          ],
+          "ranks": [
+            1,
+            3,
+            2,
+            5,
+            4
+          ]
+        },
+        {
+          "key": "age_at_death",
+          "label": "Age at death",
+          "values": [
+            "19 years",
+            "35 years",
+            "52 years",
+            "74 years",
+            "91 years"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "death_longitude",
+          "label": "How far east they died (from the prime meridian)",
+          "values": [
+            "1.1° E",
+            "16.4° E",
+            "1.7° W",
+            "111.9° W",
+            "7.0° E"
+          ],
+          "ranks": [
+            3,
+            5,
+            2,
+            1,
+            4
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        }
+      ],
+      "number": 14
     }
   ]
 }
