@@ -1838,6 +1838,151 @@
         }
       ],
       "number": 14
+    },
+    {
+      "id": "3a804207c686",
+      "category": "Fruit & veg",
+      "items": [
+        {
+          "label": "Lettuce",
+          "qid": "Q104666136",
+          "url": "https://www.wikidata.org/wiki/Q104666136"
+        },
+        {
+          "label": "Pumpkin",
+          "qid": "Q165308",
+          "url": "https://www.wikidata.org/wiki/Q165308"
+        },
+        {
+          "label": "Papaya",
+          "qid": "Q12330939",
+          "url": "https://www.wikidata.org/wiki/Q12330939"
+        },
+        {
+          "label": "Pea",
+          "qid": "Q29472543",
+          "url": "https://www.wikidata.org/wiki/Q29472543"
+        },
+        {
+          "label": "Garlic",
+          "qid": "Q21546392",
+          "url": "https://www.wikidata.org/wiki/Q21546392"
+        }
+      ],
+      "answer": "calories",
+      "options": [
+        {
+          "key": "sugar",
+          "label": "Sugar per 100 g",
+          "values": [
+            "1.97 g",
+            "2.76 g",
+            "7.82 g",
+            "5.67 g",
+            "1 g"
+          ],
+          "ranks": [
+            2,
+            3,
+            5,
+            4,
+            1
+          ],
+          "source": {
+            "note": "USDA FoodData Central, SR Legacy (public domain)",
+            "url": "https://fdc.nal.usda.gov/food-details/169248/nutrients"
+          }
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium per 100 g",
+          "values": [
+            "141 mg",
+            "340 mg",
+            "182 mg",
+            "244 mg",
+            "401 mg"
+          ],
+          "ranks": [
+            1,
+            4,
+            2,
+            3,
+            5
+          ],
+          "source": {
+            "note": "USDA FoodData Central, SR Legacy (public domain)",
+            "url": "https://fdc.nal.usda.gov/food-details/169248/nutrients"
+          }
+        },
+        {
+          "key": "protein",
+          "label": "Protein per 100 g",
+          "values": [
+            "0.9 g",
+            "1 g",
+            "0.47 g",
+            "5.42 g",
+            "6.36 g"
+          ],
+          "ranks": [
+            2,
+            3,
+            1,
+            4,
+            5
+          ],
+          "source": {
+            "note": "USDA FoodData Central, SR Legacy (public domain)",
+            "url": "https://fdc.nal.usda.gov/food-details/169248/nutrients"
+          }
+        },
+        {
+          "key": "vitamin_c",
+          "label": "Vitamin C per 100 g",
+          "values": [
+            "2.8 mg",
+            "9 mg",
+            "60.9 mg",
+            "40 mg",
+            "31.2 mg"
+          ],
+          "ranks": [
+            1,
+            2,
+            5,
+            4,
+            3
+          ],
+          "source": {
+            "note": "USDA FoodData Central, SR Legacy (public domain)",
+            "url": "https://fdc.nal.usda.gov/food-details/169248/nutrients"
+          }
+        },
+        {
+          "key": "calories",
+          "label": "Calories per 100 g",
+          "values": [
+            "14 kcal",
+            "26 kcal",
+            "43 kcal",
+            "81 kcal",
+            "149 kcal"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "source": {
+            "note": "USDA FoodData Central, SR Legacy (public domain)",
+            "url": "https://fdc.nal.usda.gov/food-details/169248/nutrients"
+          }
+        }
+      ],
+      "number": 15
     }
   ]
 }
