@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Whydle</title>
-  <meta name="description" content="Five things. One hidden order. A daily puzzle: work out what five things are sorted by.">
+  <title>Whydle – Daily Trivia &amp; Logic Puzzle | Free Browser Game</title>
+  <meta name="description" content="Play Whydle, a free daily trivia and logic puzzle. Five things are already in order — can you figure out why? A new general knowledge puzzle every day.">
+  <!-- One canonical address: ?p= (archive days), ?date= and campaign tags all point here. -->
+  <link rel="canonical" href="https://whydle.app/">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#f5f3ee" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0f1726" media="(prefers-color-scheme: dark)">
@@ -18,7 +20,41 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Whydle logo with five ranked rows">
+  <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Whydle: five things, one hidden order">
+  <meta name="twitter:description" content="A free daily trivia and logic puzzle. Five things are already in order. Can you work out what they're sorted by?">
+  <meta name="twitter:image" content="https://whydle.app/og-image.png">
+  <meta name="twitter:image:alt" content="Whydle logo with five ranked rows">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://whydle.app/#website",
+        "url": "https://whydle.app/",
+        "name": "Whydle",
+        "description": "A free daily trivia and logic puzzle: five things are already in order, and you work out what they're sorted by.",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://whydle.app/#game",
+        "url": "https://whydle.app/",
+        "name": "Whydle",
+        "description": "A free daily trivia and logic puzzle. A new puzzle every day.",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "Any (web browser)",
+        "browserRequirements": "Requires JavaScript",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "isPartOf": { "@id": "https://whydle.app/#website" }
+      }
+    ]
+  }
+  </script>
   <link rel="apple-touch-icon" href="icon-180.png">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Crect x='1' y='12' width='3' height='7' rx='1' fill='%239FDCCF'/%3E%3Crect x='5' y='9.5' width='3' height='9.5' rx='1' fill='%2362C0B8'/%3E%3Crect x='9' y='7' width='3' height='12' rx='1' fill='%233FA3B5'/%3E%3Crect x='13' y='4.5' width='3' height='14.5' rx='1' fill='%23347FB0'/%3E%3Crect x='17' y='2' width='3' height='17' rx='1' fill='%232E5C9E'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
@@ -48,8 +84,15 @@
 
   <main id="app">
     <p class="loading">Loading puzzle…</p>
+    <noscript><p class="loading">Whydle needs JavaScript to show today's puzzle.</p></noscript>
   </main>
   <p id="announcer" class="visually-hidden" aria-live="polite"></p>
+
+  <section class="about" aria-labelledby="about-title">
+    <h2 id="about-title">About Whydle</h2>
+    <p>Whydle is a free daily trivia and logic puzzle that plays in your browser. Every day you get five things already in order, such as countries, films, planets or animals. Work out which fact explains the order, pick from five options, and see the real values behind it.</p>
+    <p>There's a new general knowledge puzzle every day, with no account and nothing to install.</p>
+  </section>
 
   <footer class="colophon">
     Facts from <a href="https://www.wikidata.org/">Wikidata</a> and cited references. A new puzzle every day.
