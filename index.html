@@ -53,6 +53,7 @@
 
   <footer class="colophon">
     Facts from <a href="https://www.wikidata.org/">Wikidata</a> and cited references. A new puzzle every day.
+    <button class="link" id="open-privacy">Privacy</button>
   </footer>
 
   <dialog id="help" aria-labelledby="help-title">
@@ -72,6 +73,16 @@
     </ul>
     <p>A new puzzle arrives every day at midnight.</p>
     <button class="primary" data-close>Play</button>
+  </dialog>
+
+  <dialog id="privacy" aria-labelledby="privacy-title">
+    <button class="close" data-close aria-label="Close">×</button>
+    <h2 id="privacy-title">Privacy</h2>
+    <p>Whydle has no accounts. Your progress and stats stay in your browser.</p>
+    <p>To see whether the game is working, Whydle counts anonymous daily totals: visits, puzzles started and finished, and shares. Each count is sent with a few broad labels: the puzzle number, whether this browser has been here before or came yesterday (worked out on your device), and where you arrived from (the name of the referring website, or a campaign tag in the link, never the full address).</p>
+    <p>No name, email, IP address or identifier is stored with these counts, so they can't be tied back to you or to your earlier visits. Whydle skips them entirely if your browser sends Global Privacy Control or Do Not Track.</p>
+    <p>The site also uses Cloudflare Web Analytics, a cookieless page-view counter.</p>
+    <button class="primary" data-close>Close</button>
   </dialog>
 
   <dialog id="stats" aria-labelledby="stats-title">

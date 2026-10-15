@@ -1,10 +1,12 @@
 import { guess, inSentence, isStruckOut, matchesOrder, newGame, resultRow, shareText, tries } from "./game.js";
 import { computeStats, dateOfPuzzle, localIsoDate, msUntilTomorrow, puzzleNumber } from "./daily.js";
+import { createAnalytics, httpSend, privacySignalOn, sourceFromVisit } from "./analytics.js";
 
 const STORAGE_KEY = "whydle-progress-v1";
 const app = document.getElementById("app");
 const helpDialog = document.getElementById("help");
 const statsDialog = document.getElementById("stats");
+const privacyDialog = document.getElementById("privacy");
 const announcer = document.getElementById("announcer");
 
 // Screen readers hear only this short message, not the whole re-rendered puzzle.
@@ -21,6 +23,7 @@ let selected = null; // option chosen but not yet locked in
 let viewing = null; // after solving: whose values are shown
 let message = "";
 let countdownTimer = null;
+let analytics = null; // anonymous aggregate counts (D-041); null until the page has started
 
 // ---------- storage (per-browser conveniences; the page works without it) ----------
 
@@ -38,6 +41,15 @@ function saveProgress() {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
   } catch {}
+}
+
+// Touching localStorage can itself throw (blocked site data); analytics must never break the page.
+function safeStorage() {
+  try {
+    return localStorage;
+  } catch {
+    return { getItem: () => null, setItem: () => { throw new Error("no storage"); } };
+  }
 }
 
 // ---------- startup ----------
@@ -64,11 +76,26 @@ async function start() {
   const date = override || localIsoDate();
   today = puzzleNumber(date, data.launch_date);
   const requested = Number(params.get("p"));
+  analytics = createAnalytics({
+    // Local copies, and browsers sending Global Privacy Control / Do Not Track, send nothing.
+    enabled: !devCopy && !privacySignalOn(navigator),
+    storage: safeStorage(),
+    send: httpSend,
+    source: sourceFromVisit(location.search, document.referrer, location.hostname),
+    history: {
+      hasPlayed: () => progress.seenHelp || Object.keys(progress.games).length > 0 || Object.keys(progress.daily).length > 0,
+      started: (number) => (progress.games[number]?.guesses.length ?? 0) > 0,
+      solved: (number) => progress.daily[number] !== undefined,
+    },
+  });
   open(Number.isInteger(requested) && requested >= 1 && requested <= lastPlayable() ? requested : defaultNumber());
+
+  if (today >= 1 && today <= data.puzzles.length) analytics.trackDailyVisit(today);
 
   document.getElementById("open-help").addEventListener("click", () => helpDialog.showModal());
   document.getElementById("open-stats").addEventListener("click", showStats);
-  for (const dialog of [helpDialog, statsDialog]) {
+  document.getElementById("open-privacy").addEventListener("click", () => privacyDialog.showModal());
+  for (const dialog of [helpDialog, statsDialog, privacyDialog]) {
     dialog.addEventListener("click", (event) => {
       if (event.target === dialog || event.target.closest("[data-close]")) dialog.close();
     });
@@ -116,19 +143,23 @@ function open(number) {
 function lockIn() {
   if (!selected) return;
   const option = current.options.find((candidate) => candidate.key === selected);
+  const daily = isDaily(current.number);
   game = guess(game, selected);
+  if (daily) analytics.trackPuzzleStarted(current.number);
   progress.games[current.number] = { guesses: game.guesses };
   if (game.solved) {
     viewing = current.answer;
     message = "";
     // Only a puzzle finished on its own day counts toward stats and streaks.
-    if (isDaily(current.number)) progress.daily[current.number] = tries(game);
+    if (daily) progress.daily[current.number] = tries(game);
   } else {
     message = `Not ${inSentence(option.label)}. Try again.`;
   }
   saveProgress();
   selected = null;
   render();
+  // Counted after the game state is saved and drawn; may match a puzzle started before midnight.
+  if (game.solved) analytics.trackPuzzleCompleted(current.number);
   if (game.solved) {
     const count = tries(game);
     announce(`${count === 1 ? "First try!" : `Solved in ${count} tries.`} They're sorted by ${inSentence(option.label)}.`);
@@ -147,6 +178,7 @@ async function shareResult(button) {
   if (navigator.share && matchMedia("(pointer: coarse)").matches) {
     try {
       await navigator.share({ text });
+      analytics.trackShare(current.number);
       return;
     } catch (error) {
       if (error.name === "AbortError") return; // the player closed the sheet
@@ -154,6 +186,7 @@ async function shareResult(button) {
   }
   try {
     await navigator.clipboard.writeText(text);
+    analytics.trackShare(current.number);
     button.textContent = "Copied!";
   } catch {
     button.textContent = "Couldn't copy";

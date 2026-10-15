@@ -661,3 +661,9 @@ dialog .primary {
   clip: rect(0 0 0 0);
   white-space: nowrap;
 }
+
+.colophon .link {
+  margin-left: 6px;
+  font-size: inherit;
+  font-weight: 400;
+}
