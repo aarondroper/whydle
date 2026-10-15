@@ -1983,6 +1983,145 @@
         }
       ],
       "number": 15
+    },
+    {
+      "id": "e1178bb8cd4c",
+      "category": "The 8,000-metre peaks",
+      "items": [
+        {
+          "label": "Cho Oyu",
+          "qid": "Q170089",
+          "url": "https://www.wikidata.org/wiki/Q170089"
+        },
+        {
+          "label": "Mount Everest",
+          "qid": "Q513",
+          "url": "https://www.wikidata.org/wiki/Q513"
+        },
+        {
+          "label": "Shishapangma",
+          "qid": "Q105124",
+          "url": "https://www.wikidata.org/wiki/Q105124"
+        },
+        {
+          "label": "Kangchenjunga",
+          "qid": "Q82019",
+          "url": "https://www.wikidata.org/wiki/Q82019"
+        },
+        {
+          "label": "Annapurna I",
+          "qid": "Q16466024",
+          "url": "https://www.wikidata.org/wiki/Q16466024"
+        }
+      ],
+      "answer": "death_rate",
+      "options": [
+        {
+          "key": "death_rate",
+          "label": "Deaths per 100 successful climbs",
+          "values": [
+            "1.4",
+            "3.9",
+            "8.3",
+            "16",
+            "31.9"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "source": {
+            "note": "Jurgalski (8000ers.com) via The Economist, 1950 to March 2012",
+            "url": "https://en.wikipedia.org/w/index.php?title=Eight-thousander&oldid=1373504596"
+          }
+        },
+        {
+          "key": "longitude",
+          "label": "How far east (from the prime meridian)",
+          "values": [
+            "86.7° E",
+            "86.9° E",
+            "85.8° E",
+            "88.1° E",
+            "83.8° E"
+          ],
+          "ranks": [
+            3,
+            4,
+            2,
+            5,
+            1
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "ascents",
+          "label": "Successful climbs (1950–2012)",
+          "values": [
+            "3,138",
+            "5,656",
+            "302",
+            "243",
+            "191"
+          ],
+          "ranks": [
+            4,
+            5,
+            3,
+            2,
+            1
+          ],
+          "source": {
+            "note": "Jurgalski (8000ers.com) via The Economist, 1950 to March 2012",
+            "url": "https://en.wikipedia.org/w/index.php?title=Eight-thousander&oldid=1373504596"
+          }
+        },
+        {
+          "key": "prominence",
+          "label": "Prominence",
+          "values": [
+            "2,344 m",
+            "8,849 m",
+            "2,897 m",
+            "3,922 m",
+            "2,984 m"
+          ],
+          "ranks": [
+            1,
+            5,
+            2,
+            4,
+            3
+          ],
+          "hint": "How far it rises above the lowest pass to a higher mountain"
+        },
+        {
+          "key": "deaths",
+          "label": "Climbers who died (1950–2012)",
+          "values": [
+            "44",
+            "223",
+            "25",
+            "40",
+            "61"
+          ],
+          "ranks": [
+            3,
+            5,
+            1,
+            2,
+            4
+          ],
+          "source": {
+            "note": "Jurgalski (8000ers.com) via The Economist, 1950 to March 2012",
+            "url": "https://en.wikipedia.org/w/index.php?title=Eight-thousander&oldid=1373504596"
+          }
+        }
+      ],
+      "number": 16
     }
   ]
 }
