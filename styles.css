@@ -493,24 +493,6 @@ main {
   font-variant-numeric: tabular-nums;
 }
 
-.about {
-  max-width: 34rem;
-  margin: 8px auto 0;
-  padding: 0 16px;
-  color: var(--muted);
-  font-size: 0.8rem;
-  line-height: 1.5;
-  text-align: center;
-}
-
-.about h2 {
-  margin: 0 0 6px;
-  font-size: 0.8rem;
-  font-weight: 700;
-}
-
-.about p { margin: 0 0 6px; }
-
 .colophon {
   padding: 24px 0 32px;
   color: var(--muted);
@@ -678,10 +660,4 @@ dialog .primary {
   overflow: hidden;
   clip: rect(0 0 0 0);
   white-space: nowrap;
-}
-
-.colophon .link {
-  margin-left: 6px;
-  font-size: inherit;
-  font-weight: 400;
 }
