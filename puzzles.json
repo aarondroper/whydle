@@ -2248,6 +2248,133 @@
         }
       ],
       "number": 17
+    },
+    {
+      "id": "990f4797ad87",
+      "category": "Lakes",
+      "items": [
+        {
+          "label": "Loch Ness",
+          "qid": "Q49650",
+          "url": "https://www.wikidata.org/wiki/Q49650"
+        },
+        {
+          "label": "Lake Garda",
+          "qid": "Q6414",
+          "url": "https://www.wikidata.org/wiki/Q6414"
+        },
+        {
+          "label": "Lake Sevan",
+          "qid": "Q181932",
+          "url": "https://www.wikidata.org/wiki/Q181932"
+        },
+        {
+          "label": "Titicaca",
+          "qid": "Q35342",
+          "url": "https://www.wikidata.org/wiki/Q35342"
+        },
+        {
+          "label": "Lake Michigan",
+          "qid": "Q1169",
+          "url": "https://www.wikidata.org/wiki/Q1169"
+        }
+      ],
+      "answer": "area",
+      "options": [
+        {
+          "key": "longitude",
+          "label": "How far east (from the prime meridian)",
+          "values": [
+            "4.5° W",
+            "10.7° E",
+            "45.3° E",
+            "69.3° W",
+            "86.8° W"
+          ],
+          "ranks": [
+            3,
+            4,
+            5,
+            2,
+            1
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "elevation",
+          "label": "Surface elevation",
+          "values": [
+            "16 m",
+            "65 m",
+            "1,900 m",
+            "3,812 m",
+            "176 m"
+          ],
+          "ranks": [
+            1,
+            2,
+            4,
+            5,
+            3
+          ]
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "values": [
+            "56.4 km²",
+            "370 km²",
+            "1,271 km²",
+            "8,372 km²",
+            "57,750 km²"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "depth",
+          "label": "Maximum depth",
+          "values": [
+            "272 m",
+            "346 m",
+            "81 m",
+            "489 m",
+            "281 m"
+          ],
+          "ranks": [
+            2,
+            4,
+            1,
+            5,
+            3
+          ]
+        },
+        {
+          "key": "latitude",
+          "label": "How far north (from the equator)",
+          "values": [
+            "57.3° N",
+            "45.6° N",
+            "40.3° N",
+            "15.8° S",
+            "44.0° N"
+          ],
+          "ranks": [
+            5,
+            4,
+            2,
+            1,
+            3
+          ],
+          "hint": "Places south of the equator count as below zero"
+        }
+      ],
+      "number": 18
     }
   ]
 }
