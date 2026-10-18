@@ -2375,6 +2375,131 @@
         }
       ],
       "number": 18
+    },
+    {
+      "id": "cc67abeb2eb5",
+      "category": "Chemical elements",
+      "items": [
+        {
+          "label": "Platinum",
+          "qid": "Q880",
+          "url": "https://www.wikidata.org/wiki/Q880"
+        },
+        {
+          "label": "Uranium",
+          "qid": "Q1098",
+          "url": "https://www.wikidata.org/wiki/Q1098"
+        },
+        {
+          "label": "Aluminium",
+          "qid": "Q663",
+          "url": "https://www.wikidata.org/wiki/Q663"
+        },
+        {
+          "label": "Helium",
+          "qid": "Q560",
+          "url": "https://www.wikidata.org/wiki/Q560"
+        },
+        {
+          "label": "Neon",
+          "qid": "Q654",
+          "url": "https://www.wikidata.org/wiki/Q654"
+        }
+      ],
+      "answer": "discovery_year",
+      "options": [
+        {
+          "key": "melting_point",
+          "label": "Melting point",
+          "values": [
+            "1,768 °C",
+            "1,134 °C",
+            "660 °C",
+            "-272 °C",
+            "-249 °C"
+          ],
+          "ranks": [
+            5,
+            4,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "key": "discovery_year",
+          "label": "Year discovered",
+          "values": [
+            "1557",
+            "1789",
+            "1825",
+            "1868",
+            "1898"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "mass",
+          "label": "Atomic mass",
+          "values": [
+            "195 u",
+            "238 u",
+            "27 u",
+            "4 u",
+            "20.2 u"
+          ],
+          "ranks": [
+            4,
+            5,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "key": "boiling_point",
+          "label": "Boiling point",
+          "values": [
+            "3,827 °C",
+            "3,930 °C",
+            "2,327 °C",
+            "-269 °C",
+            "-246 °C"
+          ],
+          "ranks": [
+            4,
+            5,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "key": "atomic_number",
+          "label": "Atomic number",
+          "values": [
+            "78",
+            "92",
+            "13",
+            "2",
+            "10"
+          ],
+          "ranks": [
+            4,
+            5,
+            3,
+            1,
+            2
+          ]
+        }
+      ],
+      "number": 19
     }
   ]
 }
