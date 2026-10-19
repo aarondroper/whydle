@@ -2500,6 +2500,131 @@
         }
       ],
       "number": 19
+    },
+    {
+      "id": "71a9a659bce2",
+      "category": "Novels",
+      "items": [
+        {
+          "label": "Oliver Twist",
+          "qid": "Q164974",
+          "url": "https://www.wikidata.org/wiki/Q164974"
+        },
+        {
+          "label": "Fahrenheit 451",
+          "qid": "Q202009",
+          "url": "https://www.wikidata.org/wiki/Q202009"
+        },
+        {
+          "label": "The Little Prince",
+          "qid": "Q25338",
+          "url": "https://www.wikidata.org/wiki/Q25338"
+        },
+        {
+          "label": "Charlotte's Web",
+          "qid": "Q45735",
+          "url": "https://www.wikidata.org/wiki/Q45735"
+        },
+        {
+          "label": "Les Misérables",
+          "qid": "Q180736",
+          "url": "https://www.wikidata.org/wiki/Q180736"
+        }
+      ],
+      "answer": "author_age",
+      "options": [
+        {
+          "key": "author_death_year",
+          "label": "Year the author died",
+          "values": [
+            "1870",
+            "2012",
+            "1944",
+            "1985",
+            "1885"
+          ],
+          "ranks": [
+            1,
+            5,
+            3,
+            4,
+            2
+          ]
+        },
+        {
+          "key": "published_year",
+          "label": "Year published",
+          "values": [
+            "1838",
+            "1953",
+            "1943",
+            "1952",
+            "1862"
+          ],
+          "ranks": [
+            1,
+            5,
+            3,
+            4,
+            2
+          ]
+        },
+        {
+          "key": "author_birth_year",
+          "label": "Year the author was born",
+          "values": [
+            "1812",
+            "1920",
+            "1900",
+            "1899",
+            "1802"
+          ],
+          "ranks": [
+            2,
+            5,
+            4,
+            3,
+            1
+          ]
+        },
+        {
+          "key": "author_age",
+          "label": "Author's age when it came out",
+          "values": [
+            "26 years",
+            "33 years",
+            "42 years",
+            "53 years",
+            "60 years"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "author_lifespan",
+          "label": "How long the author lived",
+          "values": [
+            "58 years",
+            "91 years",
+            "44 years",
+            "86 years",
+            "83 years"
+          ],
+          "ranks": [
+            2,
+            5,
+            1,
+            4,
+            3
+          ]
+        }
+      ],
+      "number": 20
     }
   ]
 }
