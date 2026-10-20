@@ -2625,6 +2625,131 @@
         }
       ],
       "number": 20
+    },
+    {
+      "id": "e203a563928a",
+      "category": "Paintings",
+      "items": [
+        {
+          "label": "The Starry Night",
+          "qid": "Q45585",
+          "url": "https://www.wikidata.org/wiki/Q45585"
+        },
+        {
+          "label": "Arnolfini Portrait",
+          "qid": "Q220859",
+          "url": "https://www.wikidata.org/wiki/Q220859"
+        },
+        {
+          "label": "Olympia",
+          "qid": "Q737062",
+          "url": "https://www.wikidata.org/wiki/Q737062"
+        },
+        {
+          "label": "The Death of Marat",
+          "qid": "Q636537",
+          "url": "https://www.wikidata.org/wiki/Q636537"
+        },
+        {
+          "label": "Liberty Leading the People",
+          "qid": "Q29530",
+          "url": "https://www.wikidata.org/wiki/Q29530"
+        }
+      ],
+      "answer": "height",
+      "options": [
+        {
+          "key": "area",
+          "label": "Canvas area",
+          "values": [
+            "0.679 m²",
+            "0.493 m²",
+            "2.49 m²",
+            "2.11 m²",
+            "8.45 m²"
+          ],
+          "ranks": [
+            2,
+            1,
+            4,
+            3,
+            5
+          ]
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "values": [
+            "73.7 cm",
+            "82.2 cm",
+            "1.31 m",
+            "1.65 m",
+            "2.6 m"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "width",
+          "label": "Width",
+          "values": [
+            "92.1 cm",
+            "60 cm",
+            "1.91 m",
+            "1.28 m",
+            "3.25 m"
+          ],
+          "ranks": [
+            2,
+            1,
+            4,
+            3,
+            5
+          ]
+        },
+        {
+          "key": "painted_year",
+          "label": "Year painted",
+          "values": [
+            "1889",
+            "1434",
+            "1863",
+            "1793",
+            "1830"
+          ],
+          "ranks": [
+            5,
+            1,
+            4,
+            2,
+            3
+          ]
+        },
+        {
+          "key": "artist_age",
+          "label": "Artist's age when they painted it",
+          "values": [
+            "36 years",
+            "44 years",
+            "31 years",
+            "45 years",
+            "32 years"
+          ],
+          "ranks": [
+            3,
+            4,
+            1,
+            5,
+            2
+          ]
+        }
+      ],
+      "number": 21
     }
   ]
 }
