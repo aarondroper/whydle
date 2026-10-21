@@ -2750,6 +2750,134 @@
         }
       ],
       "number": 21
+    },
+    {
+      "id": "9ea4a8f0db91",
+      "category": "Mountains",
+      "items": [
+        {
+          "label": "Mount Kosciuszko",
+          "qid": "Q178167",
+          "url": "https://www.wikidata.org/wiki/Q178167"
+        },
+        {
+          "label": "Zugspitze",
+          "qid": "Q3375",
+          "url": "https://www.wikidata.org/wiki/Q3375"
+        },
+        {
+          "label": "Aoraki / Mount Cook",
+          "qid": "Q5059",
+          "url": "https://www.wikidata.org/wiki/Q5059"
+        },
+        {
+          "label": "Mount Logan",
+          "qid": "Q120306",
+          "url": "https://www.wikidata.org/wiki/Q120306"
+        },
+        {
+          "label": "K2",
+          "qid": "Q43512",
+          "url": "https://www.wikidata.org/wiki/Q43512"
+        }
+      ],
+      "answer": "elevation",
+      "options": [
+        {
+          "key": "elevation",
+          "label": "Height above sea level",
+          "values": [
+            "2,228 m",
+            "2,962 m",
+            "3,724 m",
+            "5,959 m",
+            "8,611 m"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "first_ascent",
+          "label": "Year first climbed",
+          "values": [
+            "1834",
+            "1820",
+            "1894",
+            "1925",
+            "1954"
+          ],
+          "ranks": [
+            2,
+            1,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "isolation",
+          "label": "Distance to the nearest higher ground",
+          "values": [
+            "1,895 km",
+            "25.8 km",
+            "3,140 km",
+            "622 km",
+            "1,316 km"
+          ],
+          "ranks": [
+            4,
+            1,
+            5,
+            2,
+            3
+          ],
+          "hint": "How far you'd go to find anywhere higher than its summit"
+        },
+        {
+          "key": "prominence",
+          "label": "Prominence",
+          "values": [
+            "2,228 m",
+            "1,746 m",
+            "3,724 m",
+            "5,250 m",
+            "4,020 m"
+          ],
+          "ranks": [
+            2,
+            1,
+            3,
+            5,
+            4
+          ],
+          "hint": "How far it rises above the lowest pass to a higher mountain"
+        },
+        {
+          "key": "latitude",
+          "label": "How far north (from the equator)",
+          "values": [
+            "36.5° S",
+            "47.4° N",
+            "43.6° S",
+            "60.6° N",
+            "35.9° N"
+          ],
+          "ranks": [
+            2,
+            4,
+            1,
+            5,
+            3
+          ],
+          "hint": "Places south of the equator count as below zero"
+        }
+      ],
+      "number": 22
     }
   ]
 }
