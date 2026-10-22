@@ -2878,6 +2878,132 @@
         }
       ],
       "number": 22
+    },
+    {
+      "id": "0694ffeb316a",
+      "category": "US states",
+      "items": [
+        {
+          "label": "New York",
+          "qid": "Q1384",
+          "url": "https://www.wikidata.org/wiki/Q1384"
+        },
+        {
+          "label": "Maine",
+          "qid": "Q724",
+          "url": "https://www.wikidata.org/wiki/Q724"
+        },
+        {
+          "label": "Minnesota",
+          "qid": "Q1527",
+          "url": "https://www.wikidata.org/wiki/Q1527"
+        },
+        {
+          "label": "New Mexico",
+          "qid": "Q1522",
+          "url": "https://www.wikidata.org/wiki/Q1522"
+        },
+        {
+          "label": "Hawaii",
+          "qid": "Q782",
+          "url": "https://www.wikidata.org/wiki/Q782"
+        }
+      ],
+      "answer": "statehood_year",
+      "options": [
+        {
+          "key": "area",
+          "label": "Area",
+          "values": [
+            "141,300 km²",
+            "91,646 km²",
+            "225,163 km²",
+            "315,194 km²",
+            "28,311 km²"
+          ],
+          "ranks": [
+            3,
+            2,
+            4,
+            5,
+            1
+          ]
+        },
+        {
+          "key": "latitude",
+          "label": "How far north (from the equator)",
+          "values": [
+            "43.0° N",
+            "45.5° N",
+            "46.0° N",
+            "34.0° N",
+            "21.5° N"
+          ],
+          "ranks": [
+            3,
+            4,
+            5,
+            2,
+            1
+          ],
+          "hint": "Places south of the equator count as below zero"
+        },
+        {
+          "key": "statehood_year",
+          "label": "Year it joined the US",
+          "values": [
+            "1788",
+            "1820",
+            "1858",
+            "1912",
+            "1959"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "density",
+          "label": "Population density",
+          "values": [
+            "143 per km²",
+            "15 per km²",
+            "25 per km²",
+            "6.72 per km²",
+            "51 per km²"
+          ],
+          "ranks": [
+            5,
+            2,
+            3,
+            1,
+            4
+          ]
+        },
+        {
+          "key": "population",
+          "label": "Population",
+          "values": [
+            "20.2M",
+            "1.36M",
+            "5.71M",
+            "2.12M",
+            "1.46M"
+          ],
+          "ranks": [
+            5,
+            1,
+            4,
+            3,
+            2
+          ]
+        }
+      ],
+      "number": 23
     }
   ]
 }
