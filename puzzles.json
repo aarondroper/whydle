@@ -3004,6 +3004,132 @@
         }
       ],
       "number": 23
+    },
+    {
+      "id": "19d36a96a0c2",
+      "category": "Islands",
+      "items": [
+        {
+          "label": "Capri",
+          "qid": "Q173292",
+          "url": "https://www.wikidata.org/wiki/Q173292"
+        },
+        {
+          "label": "Santorini",
+          "qid": "Q129296",
+          "url": "https://www.wikidata.org/wiki/Q129296"
+        },
+        {
+          "label": "Jan Mayen",
+          "qid": "Q14056",
+          "url": "https://www.wikidata.org/wiki/Q14056"
+        },
+        {
+          "label": "Gran Canaria",
+          "qid": "Q178925",
+          "url": "https://www.wikidata.org/wiki/Q178925"
+        },
+        {
+          "label": "Crete",
+          "qid": "Q34374",
+          "url": "https://www.wikidata.org/wiki/Q34374"
+        }
+      ],
+      "answer": "area",
+      "options": [
+        {
+          "key": "area",
+          "label": "Area",
+          "values": [
+            "10.4 km²",
+            "79.2 km²",
+            "377 km²",
+            "1,560 km²",
+            "8,336 km²"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "population",
+          "label": "Population",
+          "values": [
+            "12,903",
+            "17,430",
+            "18",
+            "863,943",
+            "623,065"
+          ],
+          "ranks": [
+            2,
+            3,
+            1,
+            5,
+            4
+          ]
+        },
+        {
+          "key": "density",
+          "label": "Population density",
+          "values": [
+            "1,241 per km²",
+            "220 per km²",
+            "0.0477 per km²",
+            "554 per km²",
+            "75 per km²"
+          ],
+          "ranks": [
+            5,
+            3,
+            1,
+            4,
+            2
+          ]
+        },
+        {
+          "key": "longitude",
+          "label": "How far east (from the prime meridian)",
+          "values": [
+            "14.2° E",
+            "25.4° E",
+            "8.5° W",
+            "15.6° W",
+            "24.9° E"
+          ],
+          "ranks": [
+            3,
+            5,
+            2,
+            1,
+            4
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "elevation",
+          "label": "Highest point",
+          "values": [
+            "589 m",
+            "567 m",
+            "2,277 m",
+            "1,956 m",
+            "2,456 m"
+          ],
+          "ranks": [
+            2,
+            1,
+            4,
+            3,
+            5
+          ]
+        }
+      ],
+      "number": 24
     }
   ]
 }
