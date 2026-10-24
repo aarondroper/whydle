@@ -3130,6 +3130,152 @@
         }
       ],
       "number": 24
+    },
+    {
+      "id": "37b4c3f84ed1",
+      "category": "Animals",
+      "items": [
+        {
+          "label": "Wild boar",
+          "qid": "Q58697",
+          "url": "https://www.wikidata.org/wiki/Q58697"
+        },
+        {
+          "label": "Gray wolf",
+          "qid": "Q18498",
+          "url": "https://www.wikidata.org/wiki/Q18498"
+        },
+        {
+          "label": "Blue whale",
+          "qid": "Q42196",
+          "url": "https://www.wikidata.org/wiki/Q42196"
+        },
+        {
+          "label": "African bush elephant",
+          "qid": "Q36557",
+          "url": "https://www.wikidata.org/wiki/Q36557"
+        },
+        {
+          "label": "Bowhead whale",
+          "qid": "Q174652",
+          "url": "https://www.wikidata.org/wiki/Q174652"
+        }
+      ],
+      "answer": "maturity",
+      "options": [
+        {
+          "key": "maturity",
+          "label": "Age females can first breed",
+          "values": [
+            "0.9 years",
+            "1.8 years",
+            "5 years",
+            "11 years",
+            "23 years"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Sus_scrofa"
+          }
+        },
+        {
+          "key": "gestation",
+          "label": "Time from pregnancy (or egg) to birth",
+          "values": [
+            "115 days",
+            "62 days",
+            "350 days",
+            "670 days",
+            "396 days"
+          ],
+          "ranks": [
+            2,
+            1,
+            3,
+            5,
+            4
+          ],
+          "hint": "Days pregnant, or days an egg takes to hatch",
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Sus_scrofa"
+          }
+        },
+        {
+          "key": "max_lifespan",
+          "label": "Longest recorded lifespan",
+          "values": [
+            "27 years",
+            "21 years",
+            "110 years",
+            "65 years",
+            "211 years"
+          ],
+          "ranks": [
+            2,
+            1,
+            4,
+            3,
+            5
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Sus_scrofa"
+          }
+        },
+        {
+          "key": "birth_weight",
+          "label": "Weight at birth",
+          "values": [
+            "960 g",
+            "450 g",
+            "2 tonnes",
+            "105 kg",
+            "900 kg"
+          ],
+          "ranks": [
+            2,
+            1,
+            5,
+            3,
+            4
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Sus_scrofa"
+          }
+        },
+        {
+          "key": "weight",
+          "label": "Adult weight",
+          "values": [
+            "130 kg",
+            "26.6 kg",
+            "136 tonnes",
+            "4.8 tonnes",
+            "100 tonnes"
+          ],
+          "ranks": [
+            2,
+            1,
+            5,
+            3,
+            4
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Sus_scrofa"
+          }
+        }
+      ],
+      "number": 25
     }
   ]
 }
