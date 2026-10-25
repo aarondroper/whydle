@@ -3276,6 +3276,132 @@
         }
       ],
       "number": 25
+    },
+    {
+      "id": "9532caae433f",
+      "category": "Countries",
+      "items": [
+        {
+          "label": "Chile",
+          "qid": "Q298",
+          "url": "https://www.wikidata.org/wiki/Q298"
+        },
+        {
+          "label": "Peru",
+          "qid": "Q419",
+          "url": "https://www.wikidata.org/wiki/Q419"
+        },
+        {
+          "label": "Nigeria",
+          "qid": "Q1033",
+          "url": "https://www.wikidata.org/wiki/Q1033"
+        },
+        {
+          "label": "Japan",
+          "qid": "Q17",
+          "url": "https://www.wikidata.org/wiki/Q17"
+        },
+        {
+          "label": "Russia",
+          "qid": "Q159",
+          "url": "https://www.wikidata.org/wiki/Q159"
+        }
+      ],
+      "answer": "latitude",
+      "options": [
+        {
+          "key": "gdp_per_person",
+          "label": "GDP per person (US$)",
+          "values": [
+            "$15,471",
+            "$7,103",
+            "$2,258",
+            "$34,177",
+            "$15,333"
+          ],
+          "ranks": [
+            4,
+            2,
+            1,
+            5,
+            3
+          ]
+        },
+        {
+          "key": "highest_point",
+          "label": "Height of its highest point",
+          "values": [
+            "6,893 m",
+            "6,768 m",
+            "2,419 m",
+            "3,777 m",
+            "5,642 m"
+          ],
+          "ranks": [
+            5,
+            4,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "key": "fertility",
+          "label": "Births per woman",
+          "values": [
+            "1.75",
+            "2.46",
+            "5.65",
+            "1.38",
+            "1.7"
+          ],
+          "ranks": [
+            3,
+            4,
+            5,
+            1,
+            2
+          ]
+        },
+        {
+          "key": "population",
+          "label": "Population",
+          "values": [
+            "19.5M",
+            "34.2M",
+            "211M",
+            "124M",
+            "146M"
+          ],
+          "ranks": [
+            1,
+            2,
+            5,
+            3,
+            4
+          ]
+        },
+        {
+          "key": "latitude",
+          "label": "How far north (from the equator)",
+          "values": [
+            "33.0° S",
+            "9.4° S",
+            "9.0° N",
+            "35.0° N",
+            "66.4° N"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "hint": "Places south of the equator count as below zero"
+        }
+      ],
+      "number": 26
     }
   ]
 }
