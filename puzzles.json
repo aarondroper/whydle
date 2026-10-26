@@ -3402,6 +3402,132 @@
         }
       ],
       "number": 26
+    },
+    {
+      "id": "938d238b8efd",
+      "category": "TV shows",
+      "items": [
+        {
+          "label": "Fawlty Towers",
+          "qid": "Q212731",
+          "url": "https://www.wikidata.org/wiki/Q212731"
+        },
+        {
+          "label": "Peaky Blinders",
+          "qid": "Q14944179",
+          "url": "https://www.wikidata.org/wiki/Q14944179"
+        },
+        {
+          "label": "Lost",
+          "qid": "Q23567",
+          "url": "https://www.wikidata.org/wiki/Q23567"
+        },
+        {
+          "label": "Sabrina the Teenage Witch",
+          "qid": "Q383104",
+          "url": "https://www.wikidata.org/wiki/Q383104"
+        },
+        {
+          "label": "Beverly Hills, 90210",
+          "qid": "Q117590",
+          "url": "https://www.wikidata.org/wiki/Q117590"
+        }
+      ],
+      "answer": "episodes",
+      "options": [
+        {
+          "key": "episode_length",
+          "label": "Length of an episode",
+          "values": [
+            "30 min",
+            "60 min",
+            "42 min",
+            "22 min",
+            "44 min"
+          ],
+          "ranks": [
+            2,
+            5,
+            3,
+            1,
+            4
+          ]
+        },
+        {
+          "key": "years_on_air",
+          "label": "How many years it ran",
+          "values": [
+            "4 years",
+            "9 years",
+            "6 years",
+            "7 years",
+            "10 years"
+          ],
+          "ranks": [
+            1,
+            4,
+            2,
+            3,
+            5
+          ],
+          "hint": "Calendar years from its first season to its last"
+        },
+        {
+          "key": "last_aired",
+          "label": "Year it ended",
+          "values": [
+            "1979",
+            "2022",
+            "2010",
+            "2003",
+            "2000"
+          ],
+          "ranks": [
+            1,
+            5,
+            4,
+            3,
+            2
+          ]
+        },
+        {
+          "key": "first_aired",
+          "label": "Year it first aired",
+          "values": [
+            "1975",
+            "2013",
+            "2004",
+            "1996",
+            "1990"
+          ],
+          "ranks": [
+            1,
+            5,
+            4,
+            3,
+            2
+          ]
+        },
+        {
+          "key": "episodes",
+          "label": "Number of episodes",
+          "values": [
+            "12",
+            "36",
+            "121",
+            "163",
+            "293"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "number": 27
     }
   ]
 }
