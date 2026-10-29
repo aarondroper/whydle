@@ -3780,6 +3780,133 @@
         }
       ],
       "number": 29
+    },
+    {
+      "id": "bb7904d53f11",
+      "category": "Football clubs",
+      "items": [
+        {
+          "label": "Tottenham Hotspur F.C.",
+          "qid": "Q18741",
+          "url": "https://www.wikidata.org/wiki/Q18741"
+        },
+        {
+          "label": "FC Barcelona",
+          "qid": "Q7156",
+          "url": "https://www.wikidata.org/wiki/Q7156"
+        },
+        {
+          "label": "PSV Eindhoven",
+          "qid": "Q11938",
+          "url": "https://www.wikidata.org/wiki/Q11938"
+        },
+        {
+          "label": "Olympique Lyonnais",
+          "qid": "Q704",
+          "url": "https://www.wikidata.org/wiki/Q704"
+        },
+        {
+          "label": "LA Galaxy",
+          "qid": "Q204357",
+          "url": "https://www.wikidata.org/wiki/Q204357"
+        }
+      ],
+      "answer": "founded_year",
+      "options": [
+        {
+          "key": "stadium_latitude",
+          "label": "How far north they play (from the equator)",
+          "values": [
+            "51.6° N",
+            "41.4° N",
+            "51.4° N",
+            "45.8° N",
+            "33.9° N"
+          ],
+          "ranks": [
+            5,
+            2,
+            4,
+            3,
+            1
+          ],
+          "hint": "Places south of the equator count as below zero"
+        },
+        {
+          "key": "capacity",
+          "label": "Stadium capacity",
+          "values": [
+            "62,850",
+            "105,000",
+            "36,500",
+            "59,286",
+            "30,510"
+          ],
+          "ranks": [
+            4,
+            5,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "key": "founded_year",
+          "label": "Year founded",
+          "values": [
+            "1882",
+            "1899",
+            "1913",
+            "1950",
+            "1995"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "stadium_opened",
+          "label": "Year their stadium opened",
+          "values": [
+            "2019",
+            "1957",
+            "1913",
+            "2016",
+            "2003"
+          ],
+          "ranks": [
+            5,
+            2,
+            1,
+            4,
+            3
+          ]
+        },
+        {
+          "key": "stadium_longitude",
+          "label": "How far east they play (from the prime meridian)",
+          "values": [
+            "0.1° W",
+            "2.1° E",
+            "5.5° E",
+            "5.0° E",
+            "118.3° W"
+          ],
+          "ranks": [
+            2,
+            3,
+            5,
+            4,
+            1
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        }
+      ],
+      "number": 30
     }
   ]
 }
