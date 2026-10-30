@@ -3907,6 +3907,133 @@
         }
       ],
       "number": 30
+    },
+    {
+      "id": "3457867f5ccf",
+      "category": "Famous people",
+      "items": [
+        {
+          "label": "Joan of Arc",
+          "qid": "Q7226",
+          "url": "https://www.wikidata.org/wiki/Q7226"
+        },
+        {
+          "label": "Martin Luther King Jr.",
+          "qid": "Q8027",
+          "url": "https://www.wikidata.org/wiki/Q8027"
+        },
+        {
+          "label": "Abraham Lincoln",
+          "qid": "Q91",
+          "url": "https://www.wikidata.org/wiki/Q91"
+        },
+        {
+          "label": "Mahatma Gandhi",
+          "qid": "Q1001",
+          "url": "https://www.wikidata.org/wiki/Q1001"
+        },
+        {
+          "label": "Nelson Mandela",
+          "qid": "Q8023",
+          "url": "https://www.wikidata.org/wiki/Q8023"
+        }
+      ],
+      "answer": "age_at_death",
+      "options": [
+        {
+          "key": "birth_longitude",
+          "label": "How far east they were born (from the prime meridian)",
+          "values": [
+            "5.7° E",
+            "84.4° W",
+            "85.7° W",
+            "69.6° E",
+            "28.5° E"
+          ],
+          "ranks": [
+            3,
+            2,
+            1,
+            5,
+            4
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "death_year",
+          "label": "Year died",
+          "values": [
+            "1431",
+            "1968",
+            "1865",
+            "1948",
+            "2013"
+          ],
+          "ranks": [
+            1,
+            4,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "key": "birth_latitude",
+          "label": "How far north they were born (from the equator)",
+          "values": [
+            "48.4° N",
+            "33.8° N",
+            "37.5° N",
+            "21.6° N",
+            "32.0° S"
+          ],
+          "ranks": [
+            5,
+            3,
+            4,
+            2,
+            1
+          ],
+          "hint": "Places south of the equator count as below zero"
+        },
+        {
+          "key": "age_at_death",
+          "label": "Age at death",
+          "values": [
+            "19 years",
+            "39 years",
+            "56 years",
+            "78 years",
+            "95 years"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "birth_year",
+          "label": "Year born",
+          "values": [
+            "1412",
+            "1929",
+            "1809",
+            "1869",
+            "1918"
+          ],
+          "ranks": [
+            1,
+            5,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "number": 31
     }
   ]
 }
