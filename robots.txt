@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://whydle.app/sitemap.xml
