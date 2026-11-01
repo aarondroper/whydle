@@ -4179,6 +4179,133 @@
         }
       ],
       "number": 32
+    },
+    {
+      "id": "c5b1fb56b435",
+      "category": "Actors",
+      "items": [
+        {
+          "label": "Humphrey Bogart",
+          "qid": "Q16390",
+          "url": "https://www.wikidata.org/wiki/Q16390"
+        },
+        {
+          "label": "Sidney Poitier",
+          "qid": "Q104049",
+          "url": "https://www.wikidata.org/wiki/Q104049"
+        },
+        {
+          "label": "Harrison Ford",
+          "qid": "Q81328",
+          "url": "https://www.wikidata.org/wiki/Q81328"
+        },
+        {
+          "label": "Matt Damon",
+          "qid": "Q175535",
+          "url": "https://www.wikidata.org/wiki/Q175535"
+        },
+        {
+          "label": "Emma Stone",
+          "qid": "Q147077",
+          "url": "https://www.wikidata.org/wiki/Q147077"
+        }
+      ],
+      "answer": "birth_year",
+      "options": [
+        {
+          "key": "oscar_nominations",
+          "label": "Oscar nominations",
+          "values": [
+            "3",
+            "2",
+            "1",
+            "5",
+            "7"
+          ],
+          "ranks": [
+            3,
+            2,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "birth_longitude",
+          "label": "How far east they were born (from the prime meridian)",
+          "values": [
+            "74.0° W",
+            "80.2° W",
+            "87.6° W",
+            "71.1° W",
+            "111.9° W"
+          ],
+          "ranks": [
+            4,
+            3,
+            2,
+            5,
+            1
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "birth_latitude",
+          "label": "How far north they were born (from the equator)",
+          "values": [
+            "40.7° N",
+            "25.8° N",
+            "41.9° N",
+            "42.4° N",
+            "33.5° N"
+          ],
+          "ranks": [
+            3,
+            1,
+            4,
+            5,
+            2
+          ],
+          "hint": "Places south of the equator count as below zero"
+        },
+        {
+          "key": "birth_year",
+          "label": "Year born",
+          "values": [
+            "1899",
+            "1927",
+            "1942",
+            "1970",
+            "1988"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "values": [
+            "1.73 m",
+            "1.89 m",
+            "1.85 m",
+            "1.78 m",
+            "1.68 m"
+          ],
+          "ranks": [
+            2,
+            5,
+            4,
+            3,
+            1
+          ]
+        }
+      ],
+      "number": 33
     }
   ]
 }
