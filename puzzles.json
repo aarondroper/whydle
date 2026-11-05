@@ -4703,6 +4703,133 @@
         }
       ],
       "number": 36
+    },
+    {
+      "id": "7a0709aaf9cc",
+      "category": "Stars",
+      "items": [
+        {
+          "label": "Alpha Centauri A",
+          "qid": "Q2090157",
+          "url": "https://www.wikidata.org/wiki/Q2090157"
+        },
+        {
+          "label": "Barnard's Star",
+          "qid": "Q14268",
+          "url": "https://www.wikidata.org/wiki/Q14268"
+        },
+        {
+          "label": "Tau Ceti",
+          "qid": "Q15820",
+          "url": "https://www.wikidata.org/wiki/Q15820"
+        },
+        {
+          "label": "Pollux",
+          "qid": "Q13028",
+          "url": "https://www.wikidata.org/wiki/Q13028"
+        },
+        {
+          "label": "Polaris",
+          "qid": "Q12980",
+          "url": "https://www.wikidata.org/wiki/Q12980"
+        }
+      ],
+      "answer": "distance",
+      "options": [
+        {
+          "key": "magnitude",
+          "label": "Apparent magnitude",
+          "values": [
+            "0.01",
+            "9.51",
+            "3.5",
+            "1.14",
+            "2.02"
+          ],
+          "ranks": [
+            1,
+            5,
+            4,
+            2,
+            3
+          ],
+          "hint": "How bright it looks from Earth; lower numbers are brighter"
+        },
+        {
+          "key": "luminosity",
+          "label": "Brightness (luminosity)",
+          "values": [
+            "1.52 × Sun",
+            "0.00346 × Sun",
+            "0.52 × Sun",
+            "32 × Sun",
+            "2,200 × Sun"
+          ],
+          "ranks": [
+            3,
+            1,
+            2,
+            4,
+            5
+          ],
+          "hint": "Total light it gives off, compared with the Sun"
+        },
+        {
+          "key": "radius",
+          "label": "Size (radius)",
+          "values": [
+            "1.23 × Sun",
+            "0.178 × Sun",
+            "0.862 × Sun",
+            "9.3 × Sun",
+            "30 × Sun"
+          ],
+          "ranks": [
+            3,
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "temperature",
+          "label": "Surface temperature",
+          "values": [
+            "5,271 K",
+            "3,278 K",
+            "5,356 K",
+            "4,835 K",
+            "6,206 K"
+          ],
+          "ranks": [
+            3,
+            1,
+            4,
+            2,
+            5
+          ]
+        },
+        {
+          "key": "distance",
+          "label": "Distance from Earth",
+          "values": [
+            "4.37 light-years",
+            "5.96 light-years",
+            "11.9 light-years",
+            "33.7 light-years",
+            "432 light-years"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "number": 37
     }
   ]
 }
