@@ -4830,6 +4830,131 @@
         }
       ],
       "number": 37
+    },
+    {
+      "id": "f4a1735c18e3",
+      "category": "Rivers",
+      "items": [
+        {
+          "label": "Neva",
+          "qid": "Q645",
+          "url": "https://www.wikidata.org/wiki/Q645"
+        },
+        {
+          "label": "Meuse",
+          "qid": "Q41986",
+          "url": "https://www.wikidata.org/wiki/Q41986"
+        },
+        {
+          "label": "Rhine",
+          "qid": "Q584",
+          "url": "https://www.wikidata.org/wiki/Q584"
+        },
+        {
+          "label": "Amu Darya",
+          "qid": "Q8493",
+          "url": "https://www.wikidata.org/wiki/Q8493"
+        },
+        {
+          "label": "Rio Grande",
+          "qid": "Q160636",
+          "url": "https://www.wikidata.org/wiki/Q160636"
+        }
+      ],
+      "answer": "length",
+      "options": [
+        {
+          "key": "discharge",
+          "label": "Water flow",
+          "values": [
+            "2,500 m³/s",
+            "230 m³/s",
+            "2,200 m³/s",
+            "1,400 m³/s",
+            "85 m³/s"
+          ],
+          "ranks": [
+            5,
+            2,
+            4,
+            3,
+            1
+          ]
+        },
+        {
+          "key": "tributaries",
+          "label": "Tributaries (as listed on Wikidata)",
+          "values": [
+            "21",
+            "92",
+            "157",
+            "8",
+            "27"
+          ],
+          "ranks": [
+            2,
+            4,
+            5,
+            1,
+            3
+          ]
+        },
+        {
+          "key": "basin_area",
+          "label": "Drainage basin area",
+          "values": [
+            "281,000 km²",
+            "36,000 km²",
+            "185,000 km²",
+            "309,000 km²",
+            "471,900 km²"
+          ],
+          "ranks": [
+            3,
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "countries",
+          "label": "Number of countries it flows through",
+          "values": [
+            "1",
+            "3",
+            "6",
+            "4",
+            "2"
+          ],
+          "ranks": [
+            1,
+            3,
+            5,
+            4,
+            2
+          ]
+        },
+        {
+          "key": "length",
+          "label": "Length",
+          "values": [
+            "74 km",
+            "950 km",
+            "1,233 km",
+            "2,620 km",
+            "3,051 km"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "number": 38
     }
   ]
 }
