@@ -4955,6 +4955,132 @@
         }
       ],
       "number": 38
+    },
+    {
+      "id": "d93f076ce722",
+      "category": "Countries",
+      "items": [
+        {
+          "label": "United Kingdom",
+          "qid": "Q145",
+          "url": "https://www.wikidata.org/wiki/Q145"
+        },
+        {
+          "label": "Sweden",
+          "qid": "Q34",
+          "url": "https://www.wikidata.org/wiki/Q34"
+        },
+        {
+          "label": "Spain",
+          "qid": "Q29",
+          "url": "https://www.wikidata.org/wiki/Q29"
+        },
+        {
+          "label": "Mexico",
+          "qid": "Q96",
+          "url": "https://www.wikidata.org/wiki/Q96"
+        },
+        {
+          "label": "India",
+          "qid": "Q668",
+          "url": "https://www.wikidata.org/wiki/Q668"
+        }
+      ],
+      "answer": "highest_point",
+      "options": [
+        {
+          "key": "gdp",
+          "label": "GDP (US$)",
+          "values": [
+            "$3.07T",
+            "$586B",
+            "$1.4T",
+            "$1.41T",
+            "$3.39T"
+          ],
+          "ranks": [
+            4,
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "key": "gdp_per_person",
+          "label": "GDP per person (US$)",
+          "values": [
+            "$45,609",
+            "$55,228",
+            "$28,760",
+            "$10,691",
+            "$2,553"
+          ],
+          "ranks": [
+            4,
+            5,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "key": "hdi",
+          "label": "Human Development Index",
+          "values": [
+            "0.929",
+            "0.947",
+            "0.905",
+            "0.758",
+            "0.633"
+          ],
+          "ranks": [
+            4,
+            5,
+            3,
+            2,
+            1
+          ],
+          "hint": "The UN's 0–1 score for health, education and income"
+        },
+        {
+          "key": "density",
+          "label": "Population density",
+          "values": [
+            "278 per km²",
+            "24 per km²",
+            "96 per km²",
+            "67 per km²",
+            "403 per km²"
+          ],
+          "ranks": [
+            4,
+            1,
+            3,
+            2,
+            5
+          ]
+        },
+        {
+          "key": "highest_point",
+          "label": "Height of its highest point",
+          "values": [
+            "1,345 m",
+            "2,097 m",
+            "3,715 m",
+            "5,636 m",
+            "8,586 m"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "number": 39
     }
   ]
 }
