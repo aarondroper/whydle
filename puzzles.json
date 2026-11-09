@@ -5226,6 +5226,133 @@
         }
       ],
       "number": 40
+    },
+    {
+      "id": "bbdb67c88e17",
+      "category": "National parks",
+      "items": [
+        {
+          "label": "Everglades National Park",
+          "qid": "Q274131",
+          "url": "https://www.wikidata.org/wiki/Q274131"
+        },
+        {
+          "label": "Great Smoky Mountains National Park",
+          "qid": "Q464004",
+          "url": "https://www.wikidata.org/wiki/Q464004"
+        },
+        {
+          "label": "Arches National Park",
+          "qid": "Q223969",
+          "url": "https://www.wikidata.org/wiki/Q223969"
+        },
+        {
+          "label": "Grand Teton National Park",
+          "qid": "Q222695",
+          "url": "https://www.wikidata.org/wiki/Q222695"
+        },
+        {
+          "label": "Glacier National Park",
+          "qid": "Q373567",
+          "url": "https://www.wikidata.org/wiki/Q373567"
+        }
+      ],
+      "answer": "latitude",
+      "options": [
+        {
+          "key": "visitors",
+          "label": "Visitors per year",
+          "values": [
+            "702,319",
+            "12.2M",
+            "1M",
+            "3.29M",
+            "3.08M"
+          ],
+          "ranks": [
+            1,
+            5,
+            2,
+            4,
+            3
+          ]
+        },
+        {
+          "key": "established_year",
+          "label": "Year established",
+          "values": [
+            "1947",
+            "1934",
+            "1971",
+            "1929",
+            "1910"
+          ],
+          "ranks": [
+            4,
+            3,
+            5,
+            2,
+            1
+          ]
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "values": [
+            "5,670 km²",
+            "2,114 km²",
+            "354 km²",
+            "1,255 km²",
+            "4,100 km²"
+          ],
+          "ranks": [
+            5,
+            3,
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "key": "longitude",
+          "label": "How far east (from the prime meridian)",
+          "values": [
+            "80.7° W",
+            "83.4° W",
+            "109.5° W",
+            "110.7° W",
+            "113.8° W"
+          ],
+          "ranks": [
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "latitude",
+          "label": "How far north (from the equator)",
+          "values": [
+            "25.3° N",
+            "35.6° N",
+            "38.7° N",
+            "43.8° N",
+            "48.8° N"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "hint": "Places south of the equator count as below zero"
+        }
+      ],
+      "number": 41
     }
   ]
 }
