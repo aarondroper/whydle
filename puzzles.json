@@ -5353,6 +5353,131 @@
         }
       ],
       "number": 41
+    },
+    {
+      "id": "e9bde62450e8",
+      "category": "Films",
+      "items": [
+        {
+          "label": "The Shawshank Redemption",
+          "qid": "Q172241",
+          "url": "https://www.wikidata.org/wiki/Q172241"
+        },
+        {
+          "label": "2001: A Space Odyssey",
+          "qid": "Q103474",
+          "url": "https://www.wikidata.org/wiki/Q103474"
+        },
+        {
+          "label": "12 Years a Slave",
+          "qid": "Q3023357",
+          "url": "https://www.wikidata.org/wiki/Q3023357"
+        },
+        {
+          "label": "Saving Private Ryan",
+          "qid": "Q165817",
+          "url": "https://www.wikidata.org/wiki/Q165817"
+        },
+        {
+          "label": "Gravity",
+          "qid": "Q2579784",
+          "url": "https://www.wikidata.org/wiki/Q2579784"
+        }
+      ],
+      "answer": "oscar_wins",
+      "options": [
+        {
+          "key": "awards",
+          "label": "Awards won (as listed)",
+          "values": [
+            "2",
+            "7",
+            "14",
+            "8",
+            "13"
+          ],
+          "ranks": [
+            1,
+            2,
+            5,
+            3,
+            4
+          ]
+        },
+        {
+          "key": "budget",
+          "label": "Budget (US$)",
+          "values": [
+            "$25M",
+            "$10.5M",
+            "$20M",
+            "$70M",
+            "$100M"
+          ],
+          "ranks": [
+            3,
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "oscar_wins",
+          "label": "Oscars won",
+          "values": [
+            "0",
+            "1",
+            "3",
+            "5",
+            "7"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "director_birth_year",
+          "label": "Director's birth year",
+          "values": [
+            "1959",
+            "1928",
+            "1969",
+            "1946",
+            "1961"
+          ],
+          "ranks": [
+            3,
+            1,
+            5,
+            2,
+            4
+          ]
+        },
+        {
+          "key": "oscar_nominations",
+          "label": "Oscar nominations",
+          "values": [
+            "7",
+            "4",
+            "9",
+            "11",
+            "10"
+          ],
+          "ranks": [
+            2,
+            1,
+            3,
+            5,
+            4
+          ]
+        }
+      ],
+      "number": 42
     }
   ]
 }
