@@ -5478,6 +5478,133 @@
         }
       ],
       "number": 42
+    },
+    {
+      "id": "582e0eb63deb",
+      "category": "Lakes",
+      "items": [
+        {
+          "label": "Lake Trasimeno",
+          "qid": "Q188487",
+          "url": "https://www.wikidata.org/wiki/Q188487"
+        },
+        {
+          "label": "Lake Sevan",
+          "qid": "Q181932",
+          "url": "https://www.wikidata.org/wiki/Q181932"
+        },
+        {
+          "label": "Lake Michigan",
+          "qid": "Q1169",
+          "url": "https://www.wikidata.org/wiki/Q1169"
+        },
+        {
+          "label": "Lake Malawi",
+          "qid": "Q5532",
+          "url": "https://www.wikidata.org/wiki/Q5532"
+        },
+        {
+          "label": "Lake Baikal",
+          "qid": "Q5513",
+          "url": "https://www.wikidata.org/wiki/Q5513"
+        }
+      ],
+      "answer": "depth",
+      "options": [
+        {
+          "key": "elevation",
+          "label": "Surface elevation",
+          "values": [
+            "258 m",
+            "1,900 m",
+            "176 m",
+            "474 m",
+            "456 m"
+          ],
+          "ranks": [
+            2,
+            5,
+            1,
+            4,
+            3
+          ]
+        },
+        {
+          "key": "depth",
+          "label": "Maximum depth",
+          "values": [
+            "7 m",
+            "81 m",
+            "281 m",
+            "704 m",
+            "1,642 m"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "values": [
+            "128 km²",
+            "1,271 km²",
+            "57,750 km²",
+            "29,600 km²",
+            "31,722 km²"
+          ],
+          "ranks": [
+            1,
+            2,
+            5,
+            3,
+            4
+          ]
+        },
+        {
+          "key": "latitude",
+          "label": "How far north (from the equator)",
+          "values": [
+            "43.1° N",
+            "40.3° N",
+            "44.0° N",
+            "12.2° S",
+            "53.3° N"
+          ],
+          "ranks": [
+            3,
+            2,
+            4,
+            1,
+            5
+          ],
+          "hint": "Places south of the equator count as below zero"
+        },
+        {
+          "key": "longitude",
+          "label": "How far east (from the prime meridian)",
+          "values": [
+            "12.1° E",
+            "45.3° E",
+            "86.8° W",
+            "34.4° E",
+            "108.0° E"
+          ],
+          "ranks": [
+            2,
+            4,
+            1,
+            3,
+            5
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        }
+      ],
+      "number": 43
     }
   ]
 }
