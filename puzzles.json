@@ -5605,6 +5605,153 @@
         }
       ],
       "number": 43
+    },
+    {
+      "id": "5d0327c18efe",
+      "category": "Animals",
+      "items": [
+        {
+          "label": "Orangutan",
+          "qid": "Q599672",
+          "url": "https://www.wikidata.org/wiki/Q599672"
+        },
+        {
+          "label": "Lion",
+          "qid": "Q140",
+          "url": "https://www.wikidata.org/wiki/Q140"
+        },
+        {
+          "label": "European rabbit",
+          "qid": "Q25851",
+          "url": "https://www.wikidata.org/wiki/Q25851"
+        },
+        {
+          "label": "House mouse",
+          "qid": "Q83310",
+          "url": "https://www.wikidata.org/wiki/Q83310"
+        },
+        {
+          "label": "Norway rat",
+          "qid": "Q184224",
+          "url": "https://www.wikidata.org/wiki/Q184224"
+        }
+      ],
+      "answer": "litter_size",
+      "options": [
+        {
+          "key": "weight",
+          "label": "Adult weight",
+          "values": [
+            "64.5 kg",
+            "175 kg",
+            "1.8 kg",
+            "20.5 g",
+            "300 g"
+          ],
+          "ranks": [
+            4,
+            5,
+            3,
+            1,
+            2
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus"
+          }
+        },
+        {
+          "key": "maturity",
+          "label": "Age females can first breed",
+          "values": [
+            "7 years",
+            "3 years",
+            "2 years",
+            "0.1 years",
+            "0.2 years"
+          ],
+          "ranks": [
+            5,
+            4,
+            3,
+            1,
+            2
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus"
+          }
+        },
+        {
+          "key": "gestation",
+          "label": "Time from pregnancy (or egg) to birth",
+          "values": [
+            "249 days",
+            "109 days",
+            "30 days",
+            "19 days",
+            "21 days"
+          ],
+          "ranks": [
+            5,
+            4,
+            3,
+            1,
+            2
+          ],
+          "hint": "Days pregnant, or days an egg takes to hatch",
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus"
+          }
+        },
+        {
+          "key": "max_lifespan",
+          "label": "Longest recorded lifespan",
+          "values": [
+            "59 years",
+            "28 years",
+            "13 years",
+            "4 years",
+            "3.8 years"
+          ],
+          "ranks": [
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus"
+          }
+        },
+        {
+          "key": "litter_size",
+          "label": "Babies per litter or clutch (average)",
+          "values": [
+            "1",
+            "3",
+            "5",
+            "7",
+            "9.9"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "hint": "How many are born, or eggs laid, at one time",
+          "source": {
+            "note": "AnAge Build 15, Human Ageing Genomic Resources (CC BY 3.0)",
+            "url": "https://genomics.senescence.info/species/entry.php?species=Pongo_pygmaeus"
+          }
+        }
+      ],
+      "number": 44
     }
   ]
 }
