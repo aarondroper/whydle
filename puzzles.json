@@ -5878,6 +5878,131 @@
         }
       ],
       "number": 45
+    },
+    {
+      "id": "d39a658971b2",
+      "category": "Novels",
+      "items": [
+        {
+          "label": "Wuthering Heights",
+          "qid": "Q202975",
+          "url": "https://www.wikidata.org/wiki/Q202975"
+        },
+        {
+          "label": "The Great Gatsby",
+          "qid": "Q214371",
+          "url": "https://www.wikidata.org/wiki/Q214371"
+        },
+        {
+          "label": "Crime and Punishment",
+          "qid": "Q165318",
+          "url": "https://www.wikidata.org/wiki/Q165318"
+        },
+        {
+          "label": "Robinson Crusoe",
+          "qid": "Q483034",
+          "url": "https://www.wikidata.org/wiki/Q483034"
+        },
+        {
+          "label": "War and Peace",
+          "qid": "Q161531",
+          "url": "https://www.wikidata.org/wiki/Q161531"
+        }
+      ],
+      "answer": "author_lifespan",
+      "options": [
+        {
+          "key": "published_year",
+          "label": "Year published",
+          "values": [
+            "1847",
+            "1925",
+            "1866",
+            "1719",
+            "1869"
+          ],
+          "ranks": [
+            2,
+            5,
+            3,
+            1,
+            4
+          ]
+        },
+        {
+          "key": "author_age",
+          "label": "Author's age when it came out",
+          "values": [
+            "29 years",
+            "28 years",
+            "45 years",
+            "59 years",
+            "41 years"
+          ],
+          "ranks": [
+            2,
+            1,
+            4,
+            5,
+            3
+          ]
+        },
+        {
+          "key": "author_death_year",
+          "label": "Year the author died",
+          "values": [
+            "1848",
+            "1940",
+            "1881",
+            "1731",
+            "1910"
+          ],
+          "ranks": [
+            2,
+            5,
+            3,
+            1,
+            4
+          ]
+        },
+        {
+          "key": "author_lifespan",
+          "label": "How long the author lived",
+          "values": [
+            "30 years",
+            "44 years",
+            "59 years",
+            "71 years",
+            "82 years"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "author_birth_year",
+          "label": "Year the author was born",
+          "values": [
+            "1818",
+            "1896",
+            "1821",
+            "1660",
+            "1828"
+          ],
+          "ranks": [
+            2,
+            5,
+            3,
+            1,
+            4
+          ]
+        }
+      ],
+      "number": 46
     }
   ]
 }
