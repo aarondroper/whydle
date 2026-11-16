@@ -6128,6 +6128,134 @@
         }
       ],
       "number": 47
+    },
+    {
+      "id": "061e2a9281b6",
+      "category": "Famous people",
+      "items": [
+        {
+          "label": "Mark Twain",
+          "qid": "Q7245",
+          "url": "https://www.wikidata.org/wiki/Q7245"
+        },
+        {
+          "label": "Charlie Chaplin",
+          "qid": "Q882",
+          "url": "https://www.wikidata.org/wiki/Q882"
+        },
+        {
+          "label": "Peter the Great",
+          "qid": "Q8479",
+          "url": "https://www.wikidata.org/wiki/Q8479"
+        },
+        {
+          "label": "Mahatma Gandhi",
+          "qid": "Q1001",
+          "url": "https://www.wikidata.org/wiki/Q1001"
+        },
+        {
+          "label": "Genghis Khan",
+          "qid": "Q720",
+          "url": "https://www.wikidata.org/wiki/Q720"
+        }
+      ],
+      "answer": "birth_longitude",
+      "options": [
+        {
+          "key": "birth_year",
+          "label": "Year born",
+          "values": [
+            "1835",
+            "1889",
+            "1672",
+            "1869",
+            "1162"
+          ],
+          "ranks": [
+            3,
+            5,
+            2,
+            4,
+            1
+          ]
+        },
+        {
+          "key": "death_year",
+          "label": "Year died",
+          "values": [
+            "1910",
+            "1977",
+            "1725",
+            "1948",
+            "1227"
+          ],
+          "ranks": [
+            3,
+            5,
+            2,
+            4,
+            1
+          ]
+        },
+        {
+          "key": "birth_latitude",
+          "label": "How far north they were born (from the equator)",
+          "values": [
+            "39.5° N",
+            "51.5° N",
+            "55.8° N",
+            "21.6° N",
+            "49.0° N"
+          ],
+          "ranks": [
+            2,
+            4,
+            5,
+            1,
+            3
+          ],
+          "hint": "Places south of the equator count as below zero"
+        },
+        {
+          "key": "birth_longitude",
+          "label": "How far east they were born (from the prime meridian)",
+          "values": [
+            "91.8° W",
+            "0.1° W",
+            "37.6° E",
+            "69.6° E",
+            "111.6° E"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "death_latitude",
+          "label": "How far north they died (from the equator)",
+          "values": [
+            "41.3° N",
+            "46.5° N",
+            "60.0° N",
+            "28.6° N",
+            "38.5° N"
+          ],
+          "ranks": [
+            3,
+            4,
+            5,
+            1,
+            2
+          ],
+          "hint": "Places south of the equator count as below zero"
+        }
+      ],
+      "number": 48
     }
   ]
 }
