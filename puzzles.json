@@ -6256,6 +6256,145 @@
         }
       ],
       "number": 48
+    },
+    {
+      "id": "4567d7d25257",
+      "category": "The 8,000-metre peaks",
+      "items": [
+        {
+          "label": "Lhotse",
+          "qid": "Q168702",
+          "url": "https://www.wikidata.org/wiki/Q168702"
+        },
+        {
+          "label": "Broad Peak",
+          "qid": "Q180996",
+          "url": "https://www.wikidata.org/wiki/Q180996"
+        },
+        {
+          "label": "Cho Oyu",
+          "qid": "Q170089",
+          "url": "https://www.wikidata.org/wiki/Q170089"
+        },
+        {
+          "label": "K2",
+          "qid": "Q43512",
+          "url": "https://www.wikidata.org/wiki/Q43512"
+        },
+        {
+          "label": "Mount Everest",
+          "qid": "Q513",
+          "url": "https://www.wikidata.org/wiki/Q513"
+        }
+      ],
+      "answer": "deaths",
+      "options": [
+        {
+          "key": "death_rate",
+          "label": "Deaths per 100 successful climbs",
+          "values": [
+            "2.8",
+            "5.2",
+            "1.4",
+            "12",
+            "3.9"
+          ],
+          "ranks": [
+            2,
+            4,
+            1,
+            5,
+            3
+          ],
+          "source": {
+            "note": "Jurgalski (8000ers.com) via The Economist, 1950 to March 2012",
+            "url": "https://en.wikipedia.org/w/index.php?title=Eight-thousander&oldid=1373504596"
+          }
+        },
+        {
+          "key": "longitude",
+          "label": "How far east (from the prime meridian)",
+          "values": [
+            "86.9° E",
+            "76.6° E",
+            "86.7° E",
+            "76.5° E",
+            "86.9° E"
+          ],
+          "ranks": [
+            5,
+            2,
+            3,
+            1,
+            4
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "latitude",
+          "label": "How far north (from the equator)",
+          "values": [
+            "28.0° N",
+            "35.8° N",
+            "28.1° N",
+            "35.9° N",
+            "28.0° N"
+          ],
+          "ranks": [
+            1,
+            4,
+            3,
+            5,
+            2
+          ],
+          "hint": "Places south of the equator count as below zero"
+        },
+        {
+          "key": "deaths",
+          "label": "Climbers who died (1950–2012)",
+          "values": [
+            "13",
+            "21",
+            "44",
+            "96",
+            "223"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "source": {
+            "note": "Jurgalski (8000ers.com) via The Economist, 1950 to March 2012",
+            "url": "https://en.wikipedia.org/w/index.php?title=Eight-thousander&oldid=1373504596"
+          }
+        },
+        {
+          "key": "ascents",
+          "label": "Successful climbs (1950–2012)",
+          "values": [
+            "461",
+            "404",
+            "3,138",
+            "800",
+            "5,656"
+          ],
+          "ranks": [
+            2,
+            1,
+            4,
+            3,
+            5
+          ],
+          "source": {
+            "note": "Jurgalski (8000ers.com) via The Economist, 1950 to March 2012",
+            "url": "https://en.wikipedia.org/w/index.php?title=Eight-thousander&oldid=1373504596"
+          }
+        }
+      ],
+      "number": 49
     }
   ]
 }
