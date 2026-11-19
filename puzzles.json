@@ -6520,6 +6520,132 @@
         }
       ],
       "number": 50
+    },
+    {
+      "id": "42d9e1ddf148",
+      "category": "TV shows",
+      "items": [
+        {
+          "label": "Rome",
+          "qid": "Q209878",
+          "url": "https://www.wikidata.org/wiki/Q209878"
+        },
+        {
+          "label": "Westworld",
+          "qid": "Q17572811",
+          "url": "https://www.wikidata.org/wiki/Q17572811"
+        },
+        {
+          "label": "The A-Team",
+          "qid": "Q464123",
+          "url": "https://www.wikidata.org/wiki/Q464123"
+        },
+        {
+          "label": "Dawson's Creek",
+          "qid": "Q461357",
+          "url": "https://www.wikidata.org/wiki/Q461357"
+        },
+        {
+          "label": "ER",
+          "qid": "Q207375",
+          "url": "https://www.wikidata.org/wiki/Q207375"
+        }
+      ],
+      "answer": "episodes",
+      "options": [
+        {
+          "key": "episode_length",
+          "label": "Length of an episode",
+          "values": [
+            "50 min",
+            "74 min",
+            "45 min",
+            "44 min",
+            "46 min"
+          ],
+          "ranks": [
+            4,
+            5,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "key": "first_aired",
+          "label": "Year it first aired",
+          "values": [
+            "2005",
+            "2016",
+            "1983",
+            "1998",
+            "1994"
+          ],
+          "ranks": [
+            4,
+            5,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "key": "episodes",
+          "label": "Number of episodes",
+          "values": [
+            "22",
+            "36",
+            "98",
+            "128",
+            "331"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "last_aired",
+          "label": "Year it ended",
+          "values": [
+            "2007",
+            "2022",
+            "1987",
+            "2003",
+            "2009"
+          ],
+          "ranks": [
+            3,
+            5,
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "key": "years_on_air",
+          "label": "How many years it ran",
+          "values": [
+            "2 years",
+            "6 years",
+            "4 years",
+            "5 years",
+            "15 years"
+          ],
+          "ranks": [
+            1,
+            4,
+            2,
+            3,
+            5
+          ],
+          "hint": "Calendar years from its first season to its last"
+        }
+      ],
+      "number": 51
     }
   ]
 }
