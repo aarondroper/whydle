@@ -6646,6 +6646,135 @@
         }
       ],
       "number": 51
+    },
+    {
+      "id": "d1193e77d390",
+      "category": "Mountains",
+      "items": [
+        {
+          "label": "Ben Nevis",
+          "qid": "Q104674",
+          "url": "https://www.wikidata.org/wiki/Q104674"
+        },
+        {
+          "label": "Mount Kinabalu",
+          "qid": "Q60967",
+          "url": "https://www.wikidata.org/wiki/Q60967"
+        },
+        {
+          "label": "Mount Kenya",
+          "qid": "Q172070",
+          "url": "https://www.wikidata.org/wiki/Q172070"
+        },
+        {
+          "label": "Aconcagua",
+          "qid": "Q39739",
+          "url": "https://www.wikidata.org/wiki/Q39739"
+        },
+        {
+          "label": "Lhotse",
+          "qid": "Q168702",
+          "url": "https://www.wikidata.org/wiki/Q168702"
+        }
+      ],
+      "answer": "elevation",
+      "options": [
+        {
+          "key": "latitude",
+          "label": "How far north (from the equator)",
+          "values": [
+            "56.8° N",
+            "6.1° N",
+            "0.1° S",
+            "32.7° S",
+            "28.0° N"
+          ],
+          "ranks": [
+            5,
+            3,
+            2,
+            1,
+            4
+          ],
+          "hint": "Places south of the equator count as below zero"
+        },
+        {
+          "key": "prominence",
+          "label": "Prominence",
+          "values": [
+            "1,345 m",
+            "4,095 m",
+            "3,825 m",
+            "6,962 m",
+            "610 m"
+          ],
+          "ranks": [
+            2,
+            4,
+            3,
+            5,
+            1
+          ],
+          "hint": "How far it rises above the lowest pass to a higher mountain"
+        },
+        {
+          "key": "isolation",
+          "label": "Distance to the nearest higher ground",
+          "values": [
+            "739 km",
+            "2,513 km",
+            "323 km",
+            "16,533 km",
+            "2.66 km"
+          ],
+          "ranks": [
+            3,
+            4,
+            2,
+            5,
+            1
+          ],
+          "hint": "How far you'd go to find anywhere higher than its summit"
+        },
+        {
+          "key": "longitude",
+          "label": "How far east (from the prime meridian)",
+          "values": [
+            "5.0° W",
+            "116.6° E",
+            "37.2° E",
+            "70.0° W",
+            "86.9° E"
+          ],
+          "ranks": [
+            2,
+            5,
+            3,
+            1,
+            4
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "elevation",
+          "label": "Height above sea level",
+          "values": [
+            "1,345 m",
+            "4,095 m",
+            "5,199 m",
+            "6,962 m",
+            "8,516 m"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "number": 52
     }
   ]
 }
