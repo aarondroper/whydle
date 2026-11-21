@@ -6775,6 +6775,151 @@
         }
       ],
       "number": 52
+    },
+    {
+      "id": "1d81a202f2ce",
+      "category": "Dinosaurs",
+      "items": [
+        {
+          "label": "Iguanodon",
+          "qid": "Q130980",
+          "url": "https://www.wikidata.org/wiki/Q130980"
+        },
+        {
+          "label": "Allosaurus",
+          "qid": "Q14400",
+          "url": "https://www.wikidata.org/wiki/Q14400"
+        },
+        {
+          "label": "Ankylosaurus",
+          "qid": "Q40621",
+          "url": "https://www.wikidata.org/wiki/Q40621"
+        },
+        {
+          "label": "Pachycephalosaurus",
+          "qid": "Q14455",
+          "url": "https://www.wikidata.org/wiki/Q14455"
+        },
+        {
+          "label": "Maiasaura",
+          "qid": "Q132414",
+          "url": "https://www.wikidata.org/wiki/Q132414"
+        }
+      ],
+      "answer": "named_year",
+      "options": [
+        {
+          "key": "lived_mya",
+          "label": "How long ago it lived",
+          "values": [
+            "125M years ago",
+            "149M years ago",
+            "67M years ago",
+            "67.5M years ago",
+            "77.5M years ago"
+          ],
+          "ranks": [
+            4,
+            5,
+            1,
+            2,
+            3
+          ],
+          "source": {
+            "note": "Natural History Museum, London: Dino Directory",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/iguanodon.html"
+          }
+        },
+        {
+          "key": "named_year",
+          "label": "Year it was named",
+          "values": [
+            "1825",
+            "1877",
+            "1908",
+            "1943",
+            "1979"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "source": {
+            "note": "Paleobiology Database (CC BY 4.0)",
+            "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Iguanodon"
+          }
+        },
+        {
+          "key": "fossil_finds",
+          "label": "Fossil finds on record",
+          "values": [
+            "133",
+            "147",
+            "16",
+            "34",
+            "7"
+          ],
+          "ranks": [
+            4,
+            5,
+            2,
+            3,
+            1
+          ],
+          "source": {
+            "note": "Paleobiology Database (CC BY 4.0)",
+            "url": "https://paleobiodb.org/classic/checkTaxonInfo?taxon_name=Iguanodon"
+          }
+        },
+        {
+          "key": "length",
+          "label": "Length",
+          "values": [
+            "10 m",
+            "9.7 m",
+            "8 m",
+            "3 m",
+            "9 m"
+          ],
+          "ranks": [
+            5,
+            4,
+            2,
+            1,
+            3
+          ],
+          "source": {
+            "note": "Natural History Museum, London: Dino Directory",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/iguanodon.html"
+          }
+        },
+        {
+          "key": "weight",
+          "label": "Weight",
+          "values": [
+            "4 tonnes",
+            "2.7 tonnes",
+            "8 tonnes",
+            "450 kg",
+            "2.5 tonnes"
+          ],
+          "ranks": [
+            4,
+            3,
+            5,
+            1,
+            2
+          ],
+          "source": {
+            "note": "Natural History Museum, London: Dino Directory",
+            "url": "https://www.nhm.ac.uk/discover/dino-directory/iguanodon.html"
+          }
+        }
+      ],
+      "number": 53
     }
   ]
 }
