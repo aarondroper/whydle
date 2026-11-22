@@ -6920,6 +6920,141 @@
         }
       ],
       "number": 53
+    },
+    {
+      "id": "842742012cdd",
+      "category": "Bands",
+      "items": [
+        {
+          "label": "Pearl Jam",
+          "qid": "Q142701",
+          "url": "https://www.wikidata.org/wiki/Q142701"
+        },
+        {
+          "label": "The Carpenters",
+          "qid": "Q223495",
+          "url": "https://www.wikidata.org/wiki/Q223495"
+        },
+        {
+          "label": "Backstreet Boys",
+          "qid": "Q17140",
+          "url": "https://www.wikidata.org/wiki/Q17140"
+        },
+        {
+          "label": "The Beatles",
+          "qid": "Q1299",
+          "url": "https://www.wikidata.org/wiki/Q1299"
+        },
+        {
+          "label": "AC/DC",
+          "qid": "Q27593",
+          "url": "https://www.wikidata.org/wiki/Q27593"
+        }
+      ],
+      "answer": "origin_longitude",
+      "options": [
+        {
+          "key": "first_hit_year",
+          "label": "Year of their first hit record",
+          "values": [
+            "1991",
+            "1969",
+            "1995",
+            "1962",
+            "1975"
+          ],
+          "ranks": [
+            4,
+            2,
+            5,
+            1,
+            3
+          ],
+          "source": {
+            "note": "Wikipedia, List of best-selling music artists (release year of first charted record)",
+            "url": "https://en.wikipedia.org/w/index.php?title=List_of_best-selling_music_artists&oldid=1376669290"
+          }
+        },
+        {
+          "key": "origin_longitude",
+          "label": "How far east they formed (from the prime meridian)",
+          "values": [
+            "122.3° W",
+            "118.1° W",
+            "81.4° W",
+            "3.0° W",
+            "151.2° E"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "origin_latitude",
+          "label": "How far north they formed (from the equator)",
+          "values": [
+            "47.6° N",
+            "33.9° N",
+            "28.5° N",
+            "53.4° N",
+            "33.9° S"
+          ],
+          "ranks": [
+            4,
+            3,
+            2,
+            5,
+            1
+          ],
+          "hint": "Places south of the equator count as below zero"
+        },
+        {
+          "key": "formed_year",
+          "label": "Year formed",
+          "values": [
+            "1990",
+            "1969",
+            "1993",
+            "1960",
+            "1973"
+          ],
+          "ranks": [
+            4,
+            2,
+            5,
+            1,
+            3
+          ]
+        },
+        {
+          "key": "certified_sales",
+          "label": "Certified records sold",
+          "values": [
+            "48.4M",
+            "47M",
+            "79.9M",
+            "296M",
+            "189M"
+          ],
+          "ranks": [
+            2,
+            1,
+            3,
+            5,
+            4
+          ],
+          "source": {
+            "note": "Wikipedia, List of best-selling music artists (total certified units)",
+            "url": "https://en.wikipedia.org/w/index.php?title=List_of_best-selling_music_artists&oldid=1376669290"
+          }
+        }
+      ],
+      "number": 54
     }
   ]
 }
