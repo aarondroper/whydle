@@ -7055,6 +7055,133 @@
         }
       ],
       "number": 54
+    },
+    {
+      "id": "32dbecf25b7f",
+      "category": "Bridges",
+      "items": [
+        {
+          "label": "Golden Gate Bridge",
+          "qid": "Q44440",
+          "url": "https://www.wikidata.org/wiki/Q44440"
+        },
+        {
+          "label": "Brooklyn Bridge",
+          "qid": "Q125006",
+          "url": "https://www.wikidata.org/wiki/Q125006"
+        },
+        {
+          "label": "Menai Suspension Bridge",
+          "qid": "Q581526",
+          "url": "https://www.wikidata.org/wiki/Q581526"
+        },
+        {
+          "label": "Fatih Sultan Mehmet Bridge",
+          "qid": "Q369967",
+          "url": "https://www.wikidata.org/wiki/Q369967"
+        },
+        {
+          "label": "Akashi Kaikyō Bridge",
+          "qid": "Q184213",
+          "url": "https://www.wikidata.org/wiki/Q184213"
+        }
+      ],
+      "answer": "longitude",
+      "options": [
+        {
+          "key": "opened_year",
+          "label": "Year opened",
+          "values": [
+            "1937",
+            "1883",
+            "1826",
+            "1988",
+            "1998"
+          ],
+          "ranks": [
+            3,
+            2,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "main_span",
+          "label": "Longest span",
+          "values": [
+            "1.28 km",
+            "487 m",
+            "176 m",
+            "1.09 km",
+            "1.99 km"
+          ],
+          "ranks": [
+            4,
+            2,
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "key": "longitude",
+          "label": "How far east (from the prime meridian)",
+          "values": [
+            "122.5° W",
+            "74.0° W",
+            "4.2° W",
+            "29.1° E",
+            "135.0° E"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "values": [
+            "227 m",
+            "84 m",
+            "30 m",
+            "110 m",
+            "283 m"
+          ],
+          "ranks": [
+            4,
+            2,
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "key": "latitude",
+          "label": "How far north (from the equator)",
+          "values": [
+            "37.8° N",
+            "40.7° N",
+            "53.2° N",
+            "41.1° N",
+            "34.6° N"
+          ],
+          "ranks": [
+            2,
+            3,
+            5,
+            4,
+            1
+          ],
+          "hint": "Places south of the equator count as below zero"
+        }
+      ],
+      "number": 55
     }
   ]
 }
