@@ -7309,6 +7309,133 @@
         }
       ],
       "number": 56
+    },
+    {
+      "id": "2c4e8ffbd8e4",
+      "category": "Towers & skyscrapers",
+      "items": [
+        {
+          "label": "Eiffel Tower",
+          "qid": "Q243",
+          "url": "https://www.wikidata.org/wiki/Q243"
+        },
+        {
+          "label": "Woolworth Building",
+          "qid": "Q217652",
+          "url": "https://www.wikidata.org/wiki/Q217652"
+        },
+        {
+          "label": "Space Needle",
+          "qid": "Q5317",
+          "url": "https://www.wikidata.org/wiki/Q5317"
+        },
+        {
+          "label": "Petronas Towers",
+          "qid": "Q83063",
+          "url": "https://www.wikidata.org/wiki/Q83063"
+        },
+        {
+          "label": "Turning Torso",
+          "qid": "Q206435",
+          "url": "https://www.wikidata.org/wiki/Q206435"
+        }
+      ],
+      "answer": "built_year",
+      "options": [
+        {
+          "key": "longitude",
+          "label": "How far east (from the prime meridian)",
+          "values": [
+            "2.3° E",
+            "74.0° W",
+            "122.3° W",
+            "101.7° E",
+            "13.0° E"
+          ],
+          "ranks": [
+            3,
+            2,
+            1,
+            5,
+            4
+          ],
+          "hint": "The prime meridian runs through London; places west of it count as below zero"
+        },
+        {
+          "key": "built_year",
+          "label": "Year built",
+          "values": [
+            "1887",
+            "1912",
+            "1961",
+            "1993",
+            "2006"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "floors",
+          "label": "Number of floors",
+          "values": [
+            "3",
+            "58",
+            "6",
+            "88",
+            "54"
+          ],
+          "ranks": [
+            1,
+            4,
+            2,
+            5,
+            3
+          ]
+        },
+        {
+          "key": "height",
+          "label": "Height",
+          "values": [
+            "330 m",
+            "241 m",
+            "184 m",
+            "452 m",
+            "190 m"
+          ],
+          "ranks": [
+            4,
+            3,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "key": "latitude",
+          "label": "How far north (from the equator)",
+          "values": [
+            "48.9° N",
+            "40.7° N",
+            "47.6° N",
+            "3.2° N",
+            "55.6° N"
+          ],
+          "ranks": [
+            4,
+            2,
+            3,
+            1,
+            5
+          ],
+          "hint": "Places south of the equator count as below zero"
+        }
+      ],
+      "number": 57
     }
   ]
 }
