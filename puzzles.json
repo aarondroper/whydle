@@ -7436,6 +7436,133 @@
         }
       ],
       "number": 57
+    },
+    {
+      "id": "cfb8a4b3ab61",
+      "category": "Countries",
+      "items": [
+        {
+          "label": "Nigeria",
+          "qid": "Q1033",
+          "url": "https://www.wikidata.org/wiki/Q1033"
+        },
+        {
+          "label": "South Africa",
+          "qid": "Q258",
+          "url": "https://www.wikidata.org/wiki/Q258"
+        },
+        {
+          "label": "India",
+          "qid": "Q668",
+          "url": "https://www.wikidata.org/wiki/Q668"
+        },
+        {
+          "label": "Argentina",
+          "qid": "Q414",
+          "url": "https://www.wikidata.org/wiki/Q414"
+        },
+        {
+          "label": "Switzerland",
+          "qid": "Q39",
+          "url": "https://www.wikidata.org/wiki/Q39"
+        }
+      ],
+      "answer": "life_expectancy",
+      "options": [
+        {
+          "key": "latitude",
+          "label": "How far north (from the equator)",
+          "values": [
+            "9.0° N",
+            "29.0° S",
+            "22.8° N",
+            "34.0° S",
+            "46.8° N"
+          ],
+          "ranks": [
+            3,
+            2,
+            4,
+            1,
+            5
+          ],
+          "hint": "Places south of the equator count as below zero"
+        },
+        {
+          "key": "fertility",
+          "label": "Births per woman",
+          "values": [
+            "5.65",
+            "2.36",
+            "2.28",
+            "2.15",
+            "1.52"
+          ],
+          "ranks": [
+            5,
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "key": "area",
+          "label": "Area",
+          "values": [
+            "923,768 km²",
+            "1.22M km²",
+            "3.29M km²",
+            "2.78M km²",
+            "41,291 km²"
+          ],
+          "ranks": [
+            2,
+            3,
+            5,
+            4,
+            1
+          ]
+        },
+        {
+          "key": "life_expectancy",
+          "label": "Life expectancy",
+          "values": [
+            "53 years",
+            "63 years",
+            "70 years",
+            "76 years",
+            "83 years"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "hdi",
+          "label": "Human Development Index",
+          "values": [
+            "0.535",
+            "0.713",
+            "0.633",
+            "0.842",
+            "0.962"
+          ],
+          "ranks": [
+            1,
+            3,
+            2,
+            4,
+            5
+          ],
+          "hint": "The UN's 0–1 score for health, education and income"
+        }
+      ],
+      "number": 58
     }
   ]
 }
