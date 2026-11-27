@@ -7563,6 +7563,131 @@
         }
       ],
       "number": 58
+    },
+    {
+      "id": "ec1927ee0d50",
+      "category": "Films",
+      "items": [
+        {
+          "label": "Thor",
+          "qid": "Q217020",
+          "url": "https://www.wikidata.org/wiki/Q217020"
+        },
+        {
+          "label": "Alien",
+          "qid": "Q103569",
+          "url": "https://www.wikidata.org/wiki/Q103569"
+        },
+        {
+          "label": "The Green Mile",
+          "qid": "Q208263",
+          "url": "https://www.wikidata.org/wiki/Q208263"
+        },
+        {
+          "label": "Some Like It Hot",
+          "qid": "Q190086",
+          "url": "https://www.wikidata.org/wiki/Q190086"
+        },
+        {
+          "label": "Saving Private Ryan",
+          "qid": "Q165817",
+          "url": "https://www.wikidata.org/wiki/Q165817"
+        }
+      ],
+      "answer": "oscar_nominations",
+      "options": [
+        {
+          "key": "release_year",
+          "label": "Release year",
+          "values": [
+            "2011",
+            "1979",
+            "1999",
+            "1959",
+            "1998"
+          ],
+          "ranks": [
+            5,
+            2,
+            4,
+            1,
+            3
+          ]
+        },
+        {
+          "key": "budget",
+          "label": "Budget (US$)",
+          "values": [
+            "$150M",
+            "$11M",
+            "$60M",
+            "$2.88M",
+            "$70M"
+          ],
+          "ranks": [
+            5,
+            2,
+            3,
+            1,
+            4
+          ]
+        },
+        {
+          "key": "oscar_nominations",
+          "label": "Oscar nominations",
+          "values": [
+            "0",
+            "2",
+            "4",
+            "6",
+            "11"
+          ],
+          "ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "key": "runtime",
+          "label": "Running time",
+          "values": [
+            "114 min",
+            "117 min",
+            "189 min",
+            "120 min",
+            "169 min"
+          ],
+          "ranks": [
+            1,
+            2,
+            5,
+            3,
+            4
+          ]
+        },
+        {
+          "key": "director_age",
+          "label": "Director's age at release",
+          "values": [
+            "50 years",
+            "41 years",
+            "40 years",
+            "52 years",
+            "51 years"
+          ],
+          "ranks": [
+            3,
+            2,
+            1,
+            5,
+            4
+          ]
+        }
+      ],
+      "number": 59
     }
   ]
 }
